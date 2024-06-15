@@ -29,7 +29,7 @@ draft = false
         <p
           class="lead text-center text-md-start text-body-secondary mb-6 mb-lg-8"
         >
-          Ihre kardiologische und pneumologische Arztpraxis.
+          {{< getconfig "claim" >}}
         </p>
 
         <!-- Buttons -->
@@ -54,7 +54,7 @@ draft = false
     <div class="row">
       <div class="col-12 col-md-4" data-aos="fade-up">
         <!-- Icon -->
-        <div class="icon text-primary mb-3">{{> map/marker-1 }}</div>
+        <div class="icon text-primary mb-3">{{< icon "map/marker-1">}}</div>
 
         <!-- Heading -->
         <h3>Parkplatzsituation herausfordernd</h3>
@@ -67,7 +67,7 @@ draft = false
       </div>
       <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
         <!-- Icon -->
-        <div class="icon text-primary mb-3">{{> communication/add-user }}</div>
+        <div class="icon text-primary mb-3">{{< icon "communication/add-user">}}</div>
 
         <!-- Heading -->
         <h3>Wir suchen Verstärkung</h3>
@@ -80,7 +80,7 @@ draft = false
       </div>
       <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
         <!-- Icon -->
-        <div class="icon text-primary mb-3">{{> code/time-schedule}}</div>
+        <div class="icon text-primary mb-3">{{< icon "code/time-schedule">}}</div>
 
         <!-- Heading -->
         <h3>Veränderte Sprechzeiten</h3>
@@ -237,7 +237,7 @@ draft = false
           <!-- Shape -->
           <div class="position-relative">
             <div class="shape shape-bottom shape-fluid-x text-white">
-              {{> curves/curve-1}}
+              {{< shape "curves/curve-1">}}
             </div>
           </div>
 
@@ -411,7 +411,7 @@ draft = false
               <div
                 class="shape shape-end shape-fluid-y text-white d-none d-md-block"
               >
-                {{> curves/curve-4}}
+                {{< shape "curves/curve-4">}}
               </div>
             </div>
             <div class="col-12 col-md-6 position-md-static">
@@ -494,7 +494,7 @@ draft = false
 <!-- SHAPE -->
 <div class="position-relative mt-n8">
   <div class="shape shape-bottom shape-fluid-x text-gray-200">
-    {{> curves/curve-3}}
+    {{< shape "curves/curve-3">}}
   </div>
 </div>
 
@@ -766,7 +766,7 @@ draft = false
 <!-- SHAPE -->
 <div class="position-relative mt-n15">
   <div class="shape shape-bottom shape-fluid-x text-dark">
-    {{> curves/curve-1}}
+    {{< shape "curves/curve-1">}}
   </div>
 </div>
 
@@ -898,9 +898,6 @@ draft = false
 <!-- SHAPE -->
 <div class="position-relative">
   <div class="shape shape-bottom shape-fluid-x text-gray-200">
-    {{> curves/curve-1}}
+    {{< shape "curves/curve-1">}}
   </div>
 </div>
-
-<!-- FOOTER -->
-{{> partials/footer classList="bg-gray-200"}}
