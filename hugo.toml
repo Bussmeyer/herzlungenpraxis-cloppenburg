@@ -1,0 +1,9 @@
+baseURL = 'https://herzlungenpraxis-cloppenburg.de/'
+languageCode = 'de-de'
+title = 'Herz-Lungen-Praxis Cloppenburg'
+enableEmoji = true
+disableHugoGeneratorInject = true
+copyright = 'Herz-Lungen-Praxis Cloppenburg'
+disableKinds = ["rss", "taxonomy", "term"]
+enableRobotsTXT = true
+sectionPagesMenu = 'main'
