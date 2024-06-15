@@ -7,3 +7,8 @@ copyright = 'Herz-Lungen-Praxis Cloppenburg'
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 sectionPagesMenu = 'main'
+
+[params]
+  [params.contact]
+    phone = '044716121'
+    phone_human = '(04471) 6121'
