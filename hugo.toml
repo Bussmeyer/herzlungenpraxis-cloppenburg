@@ -3,7 +3,6 @@ languageCode = 'de-de'
 title = 'Herz-Lungen-Praxis Cloppenburg'
 enableEmoji = true
 disableHugoGeneratorInject = true
-copyright = 'Herz-Lungen-Praxis Cloppenburg'
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
@@ -12,23 +11,35 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
   [params.contact]
     phone = '044716121'
     phone_human = '(04471) 6121'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
 
 [menus]
   [[menus.main]]
     name = 'Über uns'
+    pageRef = '/ueber-uns'
     weight = 20
   [[menus.main]]
     name = 'Praxis'
     post = 'Lernen Sie Team und Praxis kennen'
-    pageRef = '/about'
+    pageRef = '/ueber-uns/praxis'
     parent = 'Über uns'
     weight = 1
   [[menus.main]]
     name = 'Ärzte'
     post = 'Lorem ipsum dolor sit amet'
-    pageRef = '/leistungen'
+    pageRef = '/ueber-uns/team'
     parent = 'Über uns'
     weight = 2
+  [[menus.main]]
+    name = 'Stellenangebote'
+    post = 'Lorem ipsum dolor sit amet'
+    pageRef = '/ueber-uns/karriere'
+    parent = 'Über uns'
+    weight = 3
 
 
   [[menus.main]]
@@ -61,18 +72,18 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
   [[menus.main]]
     name = 'Kontakt'
     post = 'So finden Sie zu uns'
-    pageRef = '/about'
+    pageRef = '/informationen/about'
     parent = 'Patienteninformationen'
     weight = 1
   [[menus.main]]
     name = 'Anfahrt'
     post = 'So finden Sie zu uns'
-    pageRef = '/about'
+    pageRef = '/informationen/informationen'
     parent = 'Patienteninformationen'
     weight = 2
   [[menus.main]]
     name = 'Ihre Untersuchungen'
     post = 'Bereiten Sie sich optimal vor'
-    pageRef = '/about'
+    pageRef = '/informationen/about'
     parent = 'Patienteninformationen'
     weight = 3
