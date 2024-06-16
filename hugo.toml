@@ -6,9 +6,73 @@ disableHugoGeneratorInject = true
 copyright = 'Herz-Lungen-Praxis Cloppenburg'
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
-sectionPagesMenu = 'main'
 
 [params]
+claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
   [params.contact]
     phone = '044716121'
     phone_human = '(04471) 6121'
+
+[menus]
+  [[menus.main]]
+    name = 'Über uns'
+    weight = 20
+  [[menus.main]]
+    name = 'Praxis'
+    post = 'Lernen Sie Team und Praxis kennen'
+    pageRef = '/about'
+    parent = 'Über uns'
+    weight = 1
+  [[menus.main]]
+    name = 'Ärzte'
+    post = 'Lorem ipsum dolor sit amet'
+    pageRef = '/leistungen'
+    parent = 'Über uns'
+    weight = 2
+
+
+  [[menus.main]]
+    name = 'Leistungen'
+    pageRef = '/leistungen'
+    weight = 30
+  [[menus.main]]
+    name = 'Übersicht'
+    post = 'Alle Leistungen auf einen Blick'
+    pageRef = '/leistungen'
+    parent = 'Leistungen'
+    weight = 1
+  [[menus.main]]
+    name = 'Kardiologie'
+    post = 'Consetetur sadipscing elitr'
+    pageRef = '/about'
+    parent = 'Leistungen'
+    weight = 2
+  [[menus.main]]
+    name = 'Pneumologie'
+    post = 'Sed diam nonumy eirmod tempor'
+    pageRef = '/leistungen'
+    parent = 'Leistungen'
+    weight = 3
+
+  [[menus.main]]
+    name = 'Patienteninformationen'
+    pageRef = '/informationen'
+    weight = 40
+  [[menus.main]]
+    name = 'Kontakt'
+    post = 'So finden Sie zu uns'
+    pageRef = '/about'
+    parent = 'Patienteninformationen'
+    weight = 1
+  [[menus.main]]
+    name = 'Anfahrt'
+    post = 'So finden Sie zu uns'
+    pageRef = '/about'
+    parent = 'Patienteninformationen'
+    weight = 2
+  [[menus.main]]
+    name = 'Ihre Untersuchungen'
+    post = 'Bereiten Sie sich optimal vor'
+    pageRef = '/about'
+    parent = 'Patienteninformationen'
+    weight = 3
