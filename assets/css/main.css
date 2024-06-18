@@ -1,3 +1,5 @@
-:root {
+:root {}
 
-  }
+.navbar-nav .dropdown-menu .list-group-item:hover {
+  text-decoration: underline;
+}
