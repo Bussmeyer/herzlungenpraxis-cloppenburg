@@ -10,7 +10,7 @@
   {{- $page := .page }}
   {{- $menuID := .menuID }}
 
-  {{- define "partials/inline/menu/walk.html" }}
+  {{- define "partials/inline/menu/navbar.html" }}
     {{/* URL of the current page */}}
     {{- $page := .page }}
 
@@ -85,7 +85,7 @@
 <nav class="navbar navbar-expand-lg {{.classList}} sticky-top">
   <div class="{{.container}}">
 
-    <a class="navbar-brand" style="font-size: 80%;" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <a class="navbar-brand" style="font-size: 100%;" href="{{ "/" | relURL }}">{{ site.Title }}</a>
 
     <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,16 +104,16 @@
       {{- with index site.Menus $menuID }}
         <ul class="navbar-nav ms-auto">
 
-          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+          {{- partial "inline/menu/navbar.html" (dict "page" $page "menuEntries" .) }}
 
         </ul>
       {{- end }}
 
       <!-- Phone -->
-      <div class="badge badge-lg badge-rounded-circle text-bg-primary-subtle ms-4 mt-1 me-3">
+      <div class="badge badge-lg badge-rounded-circle text-bg-primary-subtle ms-4 mt-0 me-3">
         <span class="fe fe-phone"></span>
       </div>
-      <a href="tel:{{ site.Params.Contact.phone }}" class="h4 text-primary">
+      <a href="tel:{{ site.Params.Contact.phone }}" class="h4 text-primary mt-2">
         {{ site.Params.Contact.phone_human }}
       </a>
       <!-- Button
