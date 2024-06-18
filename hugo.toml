@@ -87,3 +87,17 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     pageRef = '/informationen/about'
     parent = 'Patienteninformationen'
     weight = 3
+
+
+  [[menus.footer]]
+    name = 'Über uns'
+    pageRef = '/ueber-uns'
+    weight = 10
+  [[menus.footer]]
+    name = 'Impressum'
+    pageRef = '/impressum'
+    weight = 20
+  [[menus.footer]]
+    name = 'Genderhinweis'
+    pageRef = '/gender'
+    weight = 30
