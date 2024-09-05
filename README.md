@@ -1,4 +1,13 @@
-LANDKIT Integration in Hugo
+# Requirements
+- Install Git
+- [Install Hugo](https://gohugo.io/installation/)
+
+# Start developing
+```
+hugo server
+```
+
+# LANDKIT Integration in Hugo
 - npm run build
 - dist/assets komplett nach static/assets kopieren
 - partials/icons komplett nach layouts/partials/icons kopieren
