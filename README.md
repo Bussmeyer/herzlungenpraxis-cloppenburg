@@ -15,4 +15,11 @@ hugo server
 
 JS modules die nicht gebraucht werden entfernen.
 Nach JS die passenden CSS raushauen
-herzlungenpraxis-cloppenburg.goldammerundpartner.de
+
+# Current Domain
+beta.herzlungenpraxis-cloppenburg.de
+
+# Information
+https://github.com/spech66/hugo-best-practices
+https://github.com/18F/18f.gsa.gov/tree/main
+https://getbootstrap.com/docs/5.1/customize/css-variables/
