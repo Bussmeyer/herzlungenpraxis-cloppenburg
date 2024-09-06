@@ -1,7 +1,10 @@
 <meta charset="utf-8">
 <meta name="referrer" content="no-referrer">
+<meta http-equiv="X-Content-Type-Options" content="'nosniff' always">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'">
+<meta http-equiv="X-Frame-Options" content="deny">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
 {{ $favicon := resources.Get "favicon/favicon.ico" }}
 <link rel="icon" href="{{ $favicon.RelPermalink }}" type="image/x-icon">
