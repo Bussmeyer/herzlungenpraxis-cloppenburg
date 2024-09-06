@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {{ $favicon := resources.Get "favicon/favicon.ico" }}
-<link rel="icon" href="{{ $favicon.Permalink }}" type="image/x-icon">
+<link rel="icon" href="{{ $favicon.RelPermalink }}" type="image/x-icon">
 
 {{ partialCached "head/css.html" . }}
 
