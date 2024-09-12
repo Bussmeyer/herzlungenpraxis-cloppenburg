@@ -24,20 +24,14 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     pageRef = '/leistungen'
     weight = 20
   [[menus.main]]
-    name = 'Übersicht'
-    post = 'Alle Leistungen auf einen Blick'
-    pageRef = '/leistungen'
-    parent = 'Leistungen'
-    weight = 1
-  [[menus.main]]
     name = 'Kardiologie'
-    post = 'Consetetur sadipscing elitr'
+    post = 'Alles zum Herzen'
     pageRef = '/about'
     parent = 'Leistungen'
     weight = 2
   [[menus.main]]
     name = 'Pneumologie'
-    post = 'Sed diam nonumy eirmod tempor'
+    post = 'Ateme, Junge! Atme!'
     pageRef = '/leistungen'
     parent = 'Leistungen'
     weight = 3
@@ -60,17 +54,11 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     pageRef = '/ueber-uns'
     weight = 30
   [[menus.main]]
-    name = 'Praxisrundgang'
+    name = 'Unsere Praxis'
     post = 'Lernen Sie Team und Praxis kennen'
     pageRef = '/ueber-uns/praxis'
     parent = 'Über uns'
     weight = 1
-  [[menus.main]]
-    name = 'Unsere Philosophie'
-    post = 'Lorem ipsum dolor sit amet'
-    pageRef = '/ueber-uns/team'
-    parent = 'Über uns'
-    weight = 2
   [[menus.main]]
     name = 'Unsere Ärzte'
     post = 'Lorem ipsum dolor sit amet'
@@ -84,8 +72,7 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     parent = 'Über uns'
     weight = 4
 
-
-# COMMENT
+# Patienteninformationen
   [[menus.main]]
     name = 'Patienteninformationen'
     pageRef = '/informationen'
