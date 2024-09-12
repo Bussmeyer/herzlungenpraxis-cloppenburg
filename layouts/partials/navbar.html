@@ -142,49 +142,32 @@
         </div>
 
         <!-- Heading -->
-        <h2 class="fw-bold text-center mb-1" id="modalExampleTitle">
-          Schedule a demo with us
-        </h2>
-
-        <!-- Text -->
-        <p class="fs-lg text-center text-body-secondary mb-6 mb-md-8">
-          We can help you solve company communication.
+        <h2>Anrufen</h2>
+        <p class="fw-bold text-center mb-1" id="modalExampleTitle">
+          <div class="badge badge-lg badge-rounded-circle text-bg-primary-subtle ms-4 mt-0 me-3">
+            <span class="fe fe-phone"></span>
+          </div>
+          <a href="tel:{{ site.Params.Contact.phone }}" class="h4 text-primary mt-2">
+            {{ site.Params.Contact.phone_human }}
+          </a>
         </p>
 
-        <!-- Form -->
-        <form>
-          <div class="row">
-            <div class="col-12 col-md-6">
+        <!-- Text -->
+        <h2>Sprechstunde</h2>
+        <dl class="row fs-lg text-body-secondary mb-6 mb-md-8">
+          <dt class="col-sm-3">Montag</dt>
+          <dd class="col-sm-9">8 - 13 und 15 - 18 Uhr</dd>
+          <dt class="col-sm-3">Dienstag</dt>
+          <dd class="col-sm-9">8 - 13 und 15 - 18 Uhr</dd>
+          <dt class="col-sm-3">Mittwoch</dt>
+          <dd class="col-sm-9">8 - 13 Uhr</dd>
+          <dt class="col-sm-3">Donnerstag</dt>
+          <dd class="col-sm-9">8 - 13 und 15 - 18 Uhr</dd>
+          <dt class="col-sm-3">Freitag</dt>
+          <dd class="col-sm-9">8 - 13 Uhr</dd>
+        </dl>
 
-              <!-- First name -->
-              <div class="form-floating">
-                <input type="text" class="form-control form-control-flush" id="registrationFirstNameModal" placeholder="First name">
-                <label for="registrationFirstNameModal">First name</label>
-              </div>
-
-            </div>
-            <div class="col-12 col-md-6">
-
-              <!-- Last name -->
-              <div class="form-floating">
-                <input type="text" class="form-control form-control-flush" id="registrationLastNameModal" placeholder="Last name">
-                <label for="registrationLastNameModal">Last name</label>
-              </div>
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-
-              <!-- Submit -->
-              <button class="btn w-100 btn-primary mt-3 lift">
-                Request a demo
-              </button>
-
-            </div>
-          </div>
-        </form>
-
+        <button type="button" class="btn w-100 btn-primary mt-3 lift" data-bs-dismiss="modal" aria-label="Close">Schließen</button>
       </div>
     </div>
   </div>
