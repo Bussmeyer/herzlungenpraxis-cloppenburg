@@ -1,4 +1,24 @@
-:root {}
+:root {
+  --bs-primary: #e14e11;
+  --bs-primary-rgb: 225, 78, 17;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #c8d1ee;
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: 82,118,237;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+  --bs-btn-active-shadow: 0 0;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
 
 .navbar-nav .dropdown-menu .list-group-item:hover {
   text-decoration: underline;
