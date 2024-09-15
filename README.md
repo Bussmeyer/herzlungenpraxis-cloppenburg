@@ -7,6 +7,9 @@
 hugo server
 ```
 
+# Helpful stuff
+<pre>{{ debug.Dump .Pages }}</pre>
+
 # LANDKIT Integration in Hugo
 - Get Landkit-2.3.0.zip
 - Extract it
