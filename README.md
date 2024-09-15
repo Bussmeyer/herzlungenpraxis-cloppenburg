@@ -44,3 +44,5 @@ beta.herzlungenpraxis-cloppenburg.de
 https://github.com/spech66/hugo-best-practices
 https://github.com/18F/18f.gsa.gov/tree/main
 https://getbootstrap.com/docs/5.1/customize/css-variables/
+https://github.com/squidfingers/hugo-shortcodes/tree/main?tab=readme-ov-file#siteparam
+https://gohugo.io/templates/embedded/#schema

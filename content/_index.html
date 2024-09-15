@@ -55,19 +55,10 @@ title = 'Startseite'
 <section class="py-8 py-md-11 border-bottom">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-4" data-aos="fade-up">
-        <!-- Icon -->
-        <div class="icon text-primary mb-3">{{< icon "map/marker-1">}}</div>
-
-        <!-- Heading -->
-        <h3>Parkplatzsituation</h3>
-
-        <!-- Text -->
-        <p class="text-body-secondary mb-6 mb-md-0">
-          Aktuell wird vor unserem Haus der Parkplatz renoviert. Planen Sie
-          deshalb ein bisschen mehr Zeit für Ihre Anreise ein.
-        </p>
-      </div>
+      {{< card 
+        headline="Parkplatzsituation" 
+        copy="Aktuell wird vor unserem Haus der Parkplatz renoviert. Planen Sie deshalb ein bisschen mehr Zeit für Ihre Anreise ein."
+      >}}
       <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
         <!-- Icon -->
         <div class="icon text-primary mb-3">{{< icon "communication/add-user">}}</div>

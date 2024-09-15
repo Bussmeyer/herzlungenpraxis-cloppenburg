@@ -1,6 +1,11 @@
 +++
 title = 'Über uns'
 +++
+{{ range .Resources.ByType "image" }}
+  {{ with .Resize "300x" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+  {{ end }}
+{{ end }}
 
 <!-- WELCOME -->
 <section class="py-8 py-md-11 border-bottom">
