@@ -54,17 +54,17 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     pageRef = '/ueber-uns'
     weight = 30
   [[menus.main]]
-    name = 'Unsere Praxis'
-    #post = 'Lernen Sie Team und Praxis kennen'
-    pageRef = '/ueber-uns/praxis'
-    parent = 'Über uns'
-    weight = 1
-  [[menus.main]]
     name = 'Unsere Ärzte'
     #post = 'Lorem ipsum dolor sit amet'
     pageRef = '/ueber-uns/team'
     parent = 'Über uns'
-    weight = 3
+    weight = 1
+  [[menus.main]]
+    name = 'Unsere Praxis'
+    #post = 'Lernen Sie Team und Praxis kennen'
+    pageRef = '/ueber-uns/praxis'
+    parent = 'Über uns'
+    weight = 2
   [[menus.main]]
     name = 'Stellenangebote'
     #post = 'Lorem ipsum dolor sit amet'
@@ -78,29 +78,17 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     pageRef = '/informationen'
     weight = 40
   [[menus.main]]
-    name = 'Kontakt'
+    name = 'Kontakt & Anfahrt'
     post = 'So finden Sie zu uns'
-    pageRef = '/informationen/about'
+    pageRef = '/informationen/anfahrt'
     parent = 'Patienteninformationen'
     weight = 1
-  [[menus.main]]
-    name = 'Anfahrt'
-    post = 'So finden Sie zu uns'
-    pageRef = '/informationen/informationen'
-    parent = 'Patienteninformationen'
-    weight = 2
-  [[menus.main]]
-    name = 'Ihre Untersuchungen'
-    post = 'Bereiten Sie sich optimal vor'
-    pageRef = '/informationen/about'
-    parent = 'Patienteninformationen'
-    weight = 3
   [[menus.main]]
     name = 'Häufige Fragen'
     post = ''
     pageRef = '/informationen/faq'
     parent = 'Patienteninformationen'
-    weight = 4
+    weight = 2
 
 # Footer
   [[menus.footer]]
