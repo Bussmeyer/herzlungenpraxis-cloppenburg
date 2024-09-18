@@ -21,7 +21,6 @@ hugo server
   - // import './dropzone';
   - // import './highlight';
   - // import './isotope';
-  - // import './jarallax';
   - // import './map';
   - // import './popover';
   - // import './quill';

@@ -80,7 +80,7 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
   [[menus.main]]
     name = 'Kontakt & Anfahrt'
     post = 'So finden Sie zu uns'
-    pageRef = '/informationen/anfahrt'
+    pageRef = '/informationen/kontakt'
     parent = 'Patienteninformationen'
     weight = 1
   [[menus.main]]
@@ -92,14 +92,10 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
 
 # Footer
   [[menus.footer]]
-    name = 'Über uns'
-    pageRef = '/ueber-uns'
-    weight = 10
-  [[menus.footer]]
     name = 'Impressum'
     pageRef = '/impressum'
     weight = 20
   [[menus.footer]]
-    name = 'Genderhinweis'
+    name = 'Genderhinweis (als modal umsetzen)'
     pageRef = '/gender'
     weight = 30
