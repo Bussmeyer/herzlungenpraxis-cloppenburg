@@ -1,5 +1,7 @@
-+++
-+++
+---
+landkit:
+- https://landkit.goodthemes.co/terms-of-service.html
+---
 <!-- CONTENT -->
 <section class="pt-8 pt-md-11 pb-8 pb-md-14">
   <div class="container">
@@ -132,8 +134,8 @@
             <!-- Text -->
             <p class="fs-sm text-gray-800 mb-5">
               Herz-Lungen-Praxis Cloppenburg<br>
-              Antoniusplatz 10<br>
-              49661 Cloppenburg
+              {{< getconfig "contact.street" >}}<br>
+              {{< getconfig "contact.city" >}}
             </p>
 
             <!-- Heading -->
@@ -143,20 +145,19 @@
 
             <!-- Text -->
             <p class="fs-sm mb-5">
-              Telefon: <a href="tel:044716121" class="text-reset">04471 6121</a><br>
-              Telefax: <a href="tel:0447187020" class="text-reset">04471 87020</a>
-              <br>Aus hugo.toml ziehen
+              Telefon: <a href="tel:{{< getconfig "contact.phone" >}}" class="text-reset">{{< getconfig "contact.phone_human" >}}</a><br>
+              Telefax: {{< getconfig "contact.fax_human" >}}</a>
             </p>
 
             <!-- Heading -->
             <h6 class="fw-bold text-uppercase text-gray-700 mb-2">
-              Email
+              E-Mail
             </h6>
 
             <!-- Text -->
             <p class="fs-sm mb-0">
-              <a href="mailto:info@herzlungenpraxis-cloppenburg.de"
-                class="text-reset">info@herzlungenpraxis-cloppenburg.de</a>
+              <a href="mailto:{{< getconfig "contact.mail" >}}"
+                class="text-reset">{{< getconfig "contact.mail" >}}</a>
             </p>
 
           </div>
@@ -166,12 +167,3 @@
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
-
-<!-- SHAPE -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x text-dark">
-    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor" />
-    </svg>
-  </div>
-</div>
