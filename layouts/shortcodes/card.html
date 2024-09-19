@@ -1,12 +1,14 @@
-<div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
-  <!-- Icon -->
-  <div class="icon text-primary mb-3"></div>
+{{ $iconPath := printf "icons/duotone-icons/%s.svg" (.Get "icon") }}
 
-  <!-- Heading -->
-  <h3>{{ .Get "headline" }}</h3>
+<div class="card col-12 col-md-4 border mb-5 me-5" data-aos="fade-up" data-aos-delay='{{ .Get "delay" }}'>
+  <div class="card-body">
+    <!-- Icon -->
+    <div class="icon text-primary mb-3">{{ partial ($iconPath) }}</div>
 
-  <!-- Text -->
-  <p class="text-body-secondary mb-6 mb-md-0">
-    {{ .Get "copy" }}
-  </p>
+    <!-- Heading -->
+    <h3>{{ .Get "headline" }}</h3>
+
+    <!-- Text -->
+    <p class="text-body-secondary mb-0">{{ .Get "copy" }}</p>
+  </div>
 </div>
