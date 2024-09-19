@@ -31,7 +31,7 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     weight = 20
   [[menus.main]]
     name = 'Kardiologie'
-    post = 'Alles zum Herzen'
+    post = 'Herzgesundheit erhalten'
     pageRef = '/leistungen/kardiologie'
     parent = 'Leistungen'
     weight = 2

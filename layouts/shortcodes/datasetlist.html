@@ -1,0 +1,39 @@
+{{ $filterType := .Get "type" }}
+
+<div class="row">
+    {{ range .Site.Data.leistungen.leistungen }}
+    {{ if (or (eq $filterType "") (eq .type $filterType)) }}
+    <div class="card-group col-12 col-md-6 d-flex">
+
+        <!-- Card -->
+        <div class="card shadow-light-lg mb-6 lift lift-lg">
+
+            <!-- Body -->
+            <div class="card-body pb-1">
+
+                <!-- Heading -->
+                <h3 class="card-title">{{ .title }}</h3>
+
+                <!-- Text -->
+                <p class="card-text txt-body-secondary">{{ .body }}</p>
+
+            </div>
+
+            <div class="card-meta card-footer">
+                <!-- <hr class="card-meta-divider bg-white bg-opacity-20"> -->
+                <p>
+                    <span class="fs-sm text-uppercase text-body-secondary">
+                        Hinweis:
+                    </span>
+                    <span class="fs-sm text-body-secondary">
+                        {{ .note }}
+                    </span>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    {{ end }}
+    {{ end }}
+</div> <!-- / .row -->
