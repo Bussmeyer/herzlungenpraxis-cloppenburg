@@ -1,24 +1,31 @@
 {{ $filterType := .Get "type" }}
+{{ $offset := .Get "offset" | default 0 }}
+{{ $limit := .Get "limit" | default 1000 }}
+{{ $count := 0 }} <!-- Zähle die ausgegebenen Datensätze -->
+
+{{ $datasets := .Site.Data.leistungen.leistungen }}
 
 <div class="row">
-    {{ range .Site.Data.leistungen.leistungen }}
-    {{ if (or (eq $filterType "") (eq .type $filterType)) }}
+    {{ range $i, $dataset := $datasets }}
+    {{ if and (ge $i $offset) (lt $count $limit) }}
+    {{ if (or (eq $filterType "") (eq $dataset.type $filterType)) }}
     <div class="card-group col-12 col-md-6 d-flex">
 
         <!-- Card -->
         <div class="card shadow-light-lg mb-6 lift lift-lg">
 
             <!-- Body -->
-            <div class="card-body pb-1">
+            <div class="card-body {{ if $dataset.note }}pb-1{{ end }}">
 
                 <!-- Heading -->
-                <h3 class="card-title">{{ .title }}</h3>
+                <h3 class="card-title">{{ $dataset.title }}</h3>
 
                 <!-- Text -->
-                <p class="card-text txt-body-secondary">{{ .body }}</p>
+                <p class="card-text txt-body-secondary">{{ $dataset.body }}</p>
 
             </div>
 
+            {{ if $dataset.note }}
             <div class="card-meta card-footer">
                 <!-- <hr class="card-meta-divider bg-white bg-opacity-20"> -->
                 <p>
@@ -26,14 +33,16 @@
                         Hinweis:
                     </span>
                     <span class="fs-sm text-body-secondary">
-                        {{ .note }}
+                        {{ $dataset.note }}
                     </span>
                 </p>
             </div>
-
+            {{ end }}
         </div>
 
     </div>
+    {{ $count = add $count 1 }} <!-- Erhöhe den Zähler -->
+    {{ end }}
     {{ end }}
     {{ end }}
 </div> <!-- / .row -->

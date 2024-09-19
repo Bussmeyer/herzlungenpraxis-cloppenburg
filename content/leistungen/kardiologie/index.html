@@ -1,27 +1,54 @@
 ---
 title: 'Kardiologie'
 ---
-<section class="pt-8 pt-md-11 bg-gradient-light-white">
+
+<section class="pt-8 pt-md-11 border-bottom">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8 text-center">
 
                 <!-- Heading -->
-                <h1>                    Kardiologie                </h1>
+                <h1> Kardiologie </h1>
 
                 <!-- Text -->
                 <p class="fs-lg text-gray-700 mb-7 mb-md-9">
-                    Kardiologie ist die Lehre vom Herzen und den Blutgefäßen. In diesem Fachbereich untersuchen und behandeln wir Erkrankungen wie Herzschwäche, Bluthochdruck oder Herzrhythmusstörungen. Unser Ziel ist es, Ihre Herzgesundheit zu erhalten und zu verbessern. 
+                    Kardiologie ist die Lehre vom Herzen und den Blutgefäßen. In diesem Fachbereich untersuchen und
+                    behandeln wir Erkrankungen wie Herzschwäche, Bluthochdruck oder Herzrhythmusstörungen. Unser Ziel
+                    ist es, Ihre Herzgesundheit zu erhalten und zu verbessern.
                 </p>
 
             </div>
-        </div> <!-- / .row -->
-        
+        </div>
+    </div>
+</section>
+
+<section class="pt-8 pt-md-11 bg-gradient-light-whiiiite bg-gray-200">
+    <div class="container">
+
         <!-- Leistungen -->
-        {{< datasetlist type="kardio" >}}
+        {{< datasetlist type="kardio" limit="4">}}
 
     </div> <!-- / .container -->
 </section>
+
+<!-- SHAPE -->
+<div class="position-relative mt-n15">
+    <div class="shape shape-bottom shape-fluid-x text-dark">
+        {{< shape "curves/curve-1">}}
+    </div>
+</div>
+
+<section class="pb-8 pt-15 bg-dark">
+    <div class="container">
+        
+        <!-- Leistungen -->
+        {{< datasetlist type="kardio" offset="4">}}
+
+    </div>
+</section>
+
+
+
 <div class="d-block d-sm-none">xs</div>
 <div class="d-none d-sm-block d-md-none">sm</div>
 <div class="d-none d-md-block d-lg-none">md</div>
@@ -30,4 +57,3 @@ title: 'Kardiologie'
 
 <h2>Spezialisten unserer Praxis in der Kardiologie</h2>
 Verlinkte Teaser auf Ärzte
-
