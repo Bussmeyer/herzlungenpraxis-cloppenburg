@@ -98,10 +98,10 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
 
 # Footer
   [[menus.footer]]
-    name = 'Impressum'
+    name = 'Impressum & Datenschutz'
     pageRef = '/impressum'
     weight = 20
   [[menus.footer]]
-    name = 'Genderhinweis (als modal umsetzen)'
+    name = 'Genderhinweis (modal)'
     pageRef = '/gender'
     weight = 30
