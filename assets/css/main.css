@@ -1,6 +1,8 @@
 :root {
   --bs-primary: #e14e11;
   --bs-primary-rgb: 225, 78, 17;
+  --bs-primary-bg-subtle-rgb: 225, 78, 17;
+  --bs-btn-hover-bg: #eec8c8;
 }
 
 .btn-primary {
@@ -8,7 +10,7 @@
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #c8d1ee;
+  --bs-btn-hover-bg: #c7482b;
   --bs-btn-hover-border-color: var(--bs-primary);
   --bs-btn-focus-shadow-rgb: 82,118,237;
   --bs-btn-active-color: #fff;

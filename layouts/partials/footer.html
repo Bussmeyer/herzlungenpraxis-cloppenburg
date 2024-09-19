@@ -23,6 +23,11 @@
         {{- with index site.Menus $menuID }}
           {{- partial "inline/menu/footer.html" (dict "page" $page "menuEntries" .) }}
         {{- end }}
+
+
+        <li><a class="text-reset" data-bs-toggle="modal" data-bs-target="#modalGender">
+          Genderhinweis
+        </a></li> 
         </ul>
 
       </div>

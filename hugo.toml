@@ -101,7 +101,3 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     name = 'Impressum & Datenschutz'
     pageRef = '/impressum'
     weight = 20
-  [[menus.footer]]
-    name = 'Genderhinweis (modal)'
-    pageRef = '/gender'
-    weight = 30
