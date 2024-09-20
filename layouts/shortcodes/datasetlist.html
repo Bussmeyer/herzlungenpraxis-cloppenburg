@@ -1,14 +1,13 @@
 {{ $filterType := .Get "type" }}
+{{ $leistungen := where .Site.Data.leistungen.leistungen "type" $filterType }}
+
 {{ $offset := .Get "offset" | default 0 }}
 {{ $limit := .Get "limit" | default 1000 }}
 {{ $count := 0 }} <!-- Zähle die ausgegebenen Datensätze -->
 
-{{ $datasets := .Site.Data.leistungen.leistungen }}
-
 <div class="row">
-    {{ range $i, $dataset := $datasets }}
+    {{ range $i, $dataset := $leistungen }}
     {{ if and (ge $i $offset) (lt $count $limit) }}
-    {{ if (or (eq $filterType "") (eq $dataset.type $filterType)) }}
     <div class="card-group col-12 col-md-6 d-flex">
 
         <!-- Card -->
@@ -42,7 +41,6 @@
 
     </div>
     {{ $count = add $count 1 }} <!-- Erhöhe den Zähler -->
-    {{ end }}
     {{ end }}
     {{ end }}
 </div> <!-- / .row -->
