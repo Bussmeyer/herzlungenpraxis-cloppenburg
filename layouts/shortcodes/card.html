@@ -1,4 +1,5 @@
 {{ $iconPath := printf "icons/duotone-icons/%s.svg" (.Get "icon") }}
+{{ $link := (.Get "link") }}
 
 <div class="card col-12 col-md-4 border mb-5 me-5" data-aos="fade-up" data-aos-delay='{{ .Get "delay" }}'>
   <div class="card-body">
@@ -10,5 +11,8 @@
 
     <!-- Text -->
     <p class="text-body-secondary mb-0">{{ .Get "copy" }}</p>
+    {{ if $link }}
+      <a href="{{ $link }}" class="d-block text-primary text-center mt-3 stretched-link">Mehr Infos</a>
+    {{ end }}
   </div>
 </div>

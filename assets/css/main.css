@@ -29,3 +29,7 @@
 .navbar-nav .dropdown-menu .list-group-item:hover {
   text-decoration: underline;
 }
+
+.overlay-black::before {
+  background-color: #2d1c16;
+}

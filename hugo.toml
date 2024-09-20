@@ -85,7 +85,7 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
     weight = 40
   [[menus.main]]
     name = 'Kontakt & Anfahrt'
-    post = 'So finden Sie zu uns'
+    post = ''
     pageRef = '/informationen/kontakt'
     parent = 'Patienteninformationen'
     weight = 1
