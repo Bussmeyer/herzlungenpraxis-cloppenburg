@@ -7,7 +7,7 @@ disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
 [params]
-claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
+claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
 [params.contact]
   phone = '044716121'
   phone_human = '(04471) 6121'
@@ -37,19 +37,19 @@ claim = 'Ihre kardiologische und pneumologische Arztpraxis.'
     weight = 2
   [[menus.main]]
     name = 'Pneumologie'
-    post = 'Ateme, Junge! Atme!'
+    post = 'Gut durchatmen'
     pageRef = '/leistungen/pneumologie'
     parent = 'Leistungen'
     weight = 3
   [[menus.main]]
     name = 'Allergologie'
-    post = 'Sed diam nonumy eirmod tempor'
+    post = ''
     pageRef = '/leistungen'
     parent = 'Leistungen'
     weight = 4
   [[menus.main]]
     name = 'Schlafmedizin'
-    post = 'Sed diam nonumy eirmod tempor'
+    post = ''
     pageRef = '/leistungen'
     parent = 'Leistungen'
     weight = 5
