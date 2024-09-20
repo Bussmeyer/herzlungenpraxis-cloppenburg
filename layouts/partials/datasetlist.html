@@ -1,9 +1,10 @@
-{{ $filterType := .Get "type" }}
-{{ $leistungen := where .Site.Data.leistungen.leistungen "type" $filterType }}
+{{ $filterType := .type }}
+{{ $leistungen := where .context.Site.Data.leistungen.leistungen "type" $filterType }}
 
-{{ $offset := .Get "offset" | default 0 }}
-{{ $limit := .Get "limit" | default 1000 }}
+{{ $offset := .offset | default 0 }}
+{{ $limit := .limit | default 1000 }}
 {{ $count := 0 }} <!-- Zähle die ausgegebenen Datensätze -->
+
 
 <div class="row">
     {{ range $i, $dataset := $leistungen }}

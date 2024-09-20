@@ -1,0 +1,112 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url({{ .Params.hero }});">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+  
+          <!-- Heading -->
+          <h1 class="display-2 fw-bold text-white">
+            {{ .Title }}
+          </h1>
+  
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+  
+<!-- SHAPE -->
+<div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x text-light">
+        {{ partial "shapes/curves/curve-1.svg"}}
+    </div>
+</div>
+
+<!-- TEASER -->
+<section class="pt-7 pt-md-9 border-bottom border-gray-300" id="info">
+    <div class="container">
+
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+
+          <!-- Button -->
+          <a href="#info" class="btn btn-white btn-rounded-circle shadow mt-n11 mt-md-n13" data-scroll>
+            <i class="fe fe-arrow-down"></i>
+          </a>
+  
+        </div>
+        <div class="col-12 col-md-10 col-lg-8 mb-8 text-center">
+
+          <!-- Text -->
+          <p class="lead">
+            {{ .Content }}
+          </p>
+
+        </div>
+      </div>
+
+    </div> <!-- / .container -->
+</section>
+
+<!-- LEISTUNGEN 1 -->
+<section class="pt-7 pt-md-9 bg-gradient-light-white">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 text-center">
+
+        <!-- Heading -->
+        <h2 class="mb-7 mb-md-9">
+          Diese Untersuchungen führen wir durch
+        </h2>
+
+      </div>
+    </div>
+
+    <!-- Leistungen -->
+    {{ partial "datasetlist" (dict "context" . "type" .Params.type "limit" .Params.limit ) }}
+
+
+  </div> <!-- / .container -->
+</section>
+
+<!-- SHAPE -->
+<div class="position-relative mt-n15">
+    <div class="shape shape-bottom shape-fluid-x text-dark">
+        {{ partial "shapes/curves/curve-1.svg"}}
+    </div>
+</div>
+
+<!-- LEISTUNGEN 2 -->
+<section class="pb-10 pt-15 bg-dark">
+    <div class="container">
+        
+      <!-- Leistungen -->
+      {{ partial "datasetlist" (dict "context" . "type" .Params.type "offset" .Params.limit ) }}
+
+    </div>
+</section>
+
+<section class="pt-10 pt-md-11 bg-dark">
+  <div class="container">
+    
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 text-center">
+
+        <!-- Heading -->
+        <h2 class="mb-7 mb-md-9 text-white text-opacity-75">
+          Spezialisten unserer Praxis in der {{ .Title }}
+        </h2>
+
+      </div>
+    </div>
+
+    <!-- Team -->
+    <p class="text-white text-opacity-75">TODO: Verlinkte Teaser auf Ärzte
+    Verantwortliche Ärzt:innen sind Dr. med. Paul Meyer, Dr. med. Silvia Schütz und Dr. med. Andreas Bußmeyer.</p>
+
+  </div> <!-- / .container -->
+</section>
+
+{{ end }}
