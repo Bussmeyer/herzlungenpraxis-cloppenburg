@@ -43,14 +43,14 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
     weight = 3
   [[menus.main]]
     name = 'Allergologie'
-    post = ''
-    pageRef = '/leistungen'
+    post = 'Testen und Behandeln'
+    pageRef = '/leistungen/allergologie'
     parent = 'Leistungen'
     weight = 4
   [[menus.main]]
     name = 'Schlafmedizin'
-    post = ''
-    pageRef = '/leistungen'
+    post = 'Erholsam schlafen'
+    pageRef = '/leistungen/schlafmedizin'
     parent = 'Leistungen'
     weight = 5
 
