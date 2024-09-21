@@ -4,7 +4,7 @@
 <footer class="py-8 py-md-11 {{.classList}}">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
 
         <!-- Brand -->
         <p class="text-primary">{{ site.Title }}</p>
@@ -16,18 +16,18 @@
 
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3 align-self-end">
+      <div class="col-12 col-md-6 col-lg-8 align-self-end">
 
         <!-- Navigation -->
-        <ul class="list-unstyled text-body-secondary mb-6 mb-md-8 mb-lg-0">
-        {{- with index site.Menus $menuID }}
-          {{- partial "inline/menu/footer.html" (dict "page" $page "menuEntries" .) }}
-        {{- end }}
+        <ul class="list-unstyled list-inline text-lg-end text-body-secondary mb-6 mb-md-8 mb-lg-0">
+          {{- with index site.Menus $menuID }}
+            {{- partial "inline/menu/footer.html" (dict "page" $page "menuEntries" .) }}
+          {{- end }}
 
-
-        <li><a class="text-reset" data-bs-toggle="modal" data-bs-target="#modalGender">
-          Genderhinweis
-        </a></li> 
+          <li class="mb-5 list-inline-item">
+            <a class="text-reset" data-bs-toggle="modal" data-bs-target="#modalGender">
+            Genderhinweis</a>
+          </li>
         </ul>
 
       </div>
@@ -54,7 +54,7 @@
       {{- end }}
     {{- end }}
 
-    <li>
+    <li class="mb-5 list-inline-item">
       {{/* Add processed attributes to link tag */}}
       <a
         {{- range $k, $v := $attrs }}

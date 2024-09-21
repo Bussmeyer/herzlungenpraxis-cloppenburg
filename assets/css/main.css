@@ -3,6 +3,7 @@
   --bs-primary-rgb: 225, 78, 17;
   --bs-primary-bg-subtle-rgb: 225, 78, 17;
   --bs-btn-hover-bg: #eec8c8;
+  --bs-dark-rgb: 80,102,144;
 }
 
 .btn-primary {
