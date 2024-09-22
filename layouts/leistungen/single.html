@@ -103,10 +103,51 @@
     </div>
 
     <!-- Team -->
-    <p class="text-white text-opacity-75">TODO: Verlinkte Teaser auf Ärzte
+    <p class="text-white text-opacity-75 mb-0">TODO: Verlinkte Teaser auf Ärzte
     Verantwortliche Ärzt:innen sind Dr. med. Paul Meyer, Dr. med. Silvia Schütz und Dr. med. Andreas Bußmeyer.</p>
 
   </div> <!-- / .container -->
 </section>
+
+
+<!-- CTA -->
+<section class="py-12 py-md-14 overlay overlay-black overlay-80 bg-cover" style="background-image: url({{ .Params.picture }});">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-1- col-lg-8 text-center">
+
+        <!-- Heading -->
+        <h1 class="text-white">
+          Weitere Leistungen
+        </h1>
+
+        <!-- Text -->
+        <p class="fs-lg text-white text-opacity-80 mb-6 mb-md-8">
+          Wir führen Untersuchungen in den folgenden Bereichen durch
+          TODO: Links dynamisch
+        </p>
+
+        <!-- Button -->
+        <a href="/leistungen/pneumologie/" class="btn btn-pill btn-primary lift me-5">
+          Pneumologie <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+        <a href="/leistungen/allergologie/" class="btn btn-pill btn-primary lift me-5">
+          Allergologie <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+        <a href="/leistungen/schlafmedizin/" class="btn btn-pill btn-primary lift me-5">
+          Schlafmedizin <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+<!-- SHAPE -->
+<div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x text-gray-200">
+      {{ partial "shapes/curves/curve-1.svg"}}
+  </div>
+</div>
 
 {{ end }}
