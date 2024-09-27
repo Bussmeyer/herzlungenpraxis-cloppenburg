@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-
-<!-- CONTENT -->
-<section class="pt-6 pt-md-8 pb-8 mb-md-8">
+<!-- HEADLINE -->
+<section class="pt-6 pt-md-8">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -31,6 +30,16 @@
                     </div>
                 </div> <!-- / .row -->
 
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+
+<!-- CONTENT -->
+<section class="pt-6 pt-md-8 pb-8 mb-md-8 bg-gradient-light-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
 
                 {{ range .Pages.GroupByParam "category" }}
                 <!-- Card -->
