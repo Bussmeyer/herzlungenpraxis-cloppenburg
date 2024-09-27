@@ -1,5 +1,6 @@
 ---
 title: 'Startseite'
+draft: false
 landkit:
 - Vielleicht auch https://landkit.goodthemes.co/desktop-app.html nutzen?
 - irgendwelche shapes im hintergrund nutzen?
@@ -61,10 +62,15 @@ landkit:
         <div class="text-center text-md-start">
           <button class="btn btn-primary shadow lift me-1" data-bs-toggle="modal" data-bs-target="#modalContact">
             Kontakt & Sprechstunde
-          </button> 
-          <a href="/informationen/kontakt" class="btn btn-primary-subtle lift">
+          </button>
+
+          <!-- TODO Link wieder einblenden -->
+          <!--
+          <a href="{{< relref "informationen/kontakt" >}}" class="btn btn-primary-subtle lift">
             Anfahrt
           </a>
+          -->
+
         </div>
 
       </div>
@@ -186,14 +192,15 @@ landkit:
         </div>
 
         <!-- Item -->
+        <!-- TODO wieder einblenden
         <div class="d-flex">
           <div class="ms-8">
-            <!-- Heading -->
-            <a href="/informationen/faq" class="btn btn-primary lift">
+            <a href="{{< relref "informationen/faq" >}}" class="btn btn-primary lift">
               Ich habe weitere Fragen <i class="fe fe-arrow-right ms-2"></i>
             </a>
           </div>
         </div>
+        -->
       </div>
     </div>
     <!-- / .row -->

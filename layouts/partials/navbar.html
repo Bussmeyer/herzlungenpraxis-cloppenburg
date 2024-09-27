@@ -75,7 +75,8 @@ Renders a menu for the given menu ID.
   <div class="{{.container}}">
 
     <a class="navbar-brand" style="font-size: 100%;" href="{{ "/" | relURL }}">{{ site.Title }}</a>
-
+    {{- if false }}
+    {{/*  TODO if rausnehmen  */}}
     <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,25 +101,15 @@ Renders a menu for the given menu ID.
       </ul>
       {{- end }}
 
-      <!-- Phone -->
-      <!-- <div class="badge badge-lg badge-rounded-circle text-bg-primary-subtle ms-4 mt-0 me-3">
-        <span class="fe fe-phone"></span>
-      </div>
-      <a href="tel:{{ site.Params.Contact.phone }}" class="h4 text-primary mt-2">
-        {{ site.Params.Contact.phone_human }}
-      </a> -->
-      <!-- Button
-      <a class="navbar-btn btn btn-sm btn-{{.button}} lift ms-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
-        Kontakt
-      </a>-->
       <button class="btn btn-primary lift m-5 m-lg-0" data-bs-toggle="modal" data-bs-target="#modalContact">
         Kontakt & Sprechstunde
       </button>
     </div>
-
+    {{- end }}
   </div>
 </nav>
 
+{{/*  TODO extract modal into partial  */}}
 <div class="modal fade" id="modalContact" tabindex="-1" aria-labelledby="modalContactTitle" style="display: none;"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -161,6 +152,7 @@ Renders a menu for the given menu ID.
   </div>
 </div>
 
+{{/*  TODO extract modal into partial  */}}
 <div class="modal fade" id="modalGender" tabindex="-1" aria-labelledby="modalGenderTitle" style="display: none;"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
