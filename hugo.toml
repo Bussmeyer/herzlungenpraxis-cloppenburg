@@ -11,6 +11,8 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
 [params.contact]
   phone = '044716121'
   phone_human = '(04471) 6121'
+  phone2 = '04471933949'
+  phone2_human = '(04471) 933949'
   fax_human = '(04471) 87020'
   mail = 'info@herzlungenpraxis-cloppenburg.de'
   street = 'Antoniusplatz 10'
