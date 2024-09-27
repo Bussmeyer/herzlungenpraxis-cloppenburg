@@ -1,6 +1,6 @@
 ---
 title: Dr. med. Andreas Bußmeyer
-darft: true
+draft: true
 params:
   type: kardiologie
   picture: Team-Andreas-Bussmeyer.jpg
