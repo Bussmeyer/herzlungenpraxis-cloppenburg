@@ -101,5 +101,5 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
 # Footer
   [[menus.footer]]
     name = 'Impressum & Datenschutz'
-    pageRef = '/impressum'
+    pageRef = '/datenschutz-impressum'
     weight = 20
