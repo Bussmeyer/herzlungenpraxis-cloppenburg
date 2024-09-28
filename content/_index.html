@@ -3,10 +3,7 @@ title: 'Startseite'
 draft: false
 landkit:
 - Vielleicht auch https://landkit.goodthemes.co/desktop-app.html nutzen?
-- irgendwelche shapes im hintergrund nutzen?
 ---
-
-
 
 <!-- WELCOME -->
 <section class="border-bottom border-gray-300">
@@ -17,10 +14,10 @@ landkit:
         <!-- Slider (mobile) -->
         <div class="d-md-none img-cover"
           data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": false}'>
-          <div class="w-100"><img src="Praxisrundschau_by_M_Grambow.webp" class="img-fluid"></div>
-          <div class="w-100"><img src="Wartezimmer_1_by_M_Grambow.webp" class="img-fluid"></div>
-          <div class="w-100"><img src="Sprechzimmer_1_by_M_Grambow.webp" class="img-fluid"></div>
-          <div class="w-100"><img src="Roentgen3_by_MGrambow.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="_index/hero/Praxisrundschau_by_M_Grambow.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="_index/hero/Wartezimmer_1_by_M_Grambow.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="_index/hero/Sprechzimmer_1_by_M_Grambow.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="_index/hero/Roentgen3_by_MGrambow.webp" class="img-fluid"></div>
         </div>
 
         <!-- Slider -->
@@ -29,11 +26,11 @@ landkit:
           <!-- Slider -->
           <div class="flickity-button-bottom flickity-button-white h-100 w-100"
             data-flickity='{"imagesLoaded": true, "setGallerySize": false, "wrapAround": true, "pageDots": false, "autoPlay": true, "lazyLoad": true}'>
-            <div class="w-100 h-100 bg-cover" style="background-image: url(Praxisrundschau_by_M_Grambow.webp);"></div>
-            <div class="w-100 h-100 bg-cover" style="background-image: url(Wartezimmer_2_by_M_Grambow.webp);"></div>
-            <div class="w-100 h-100 bg-cover" style="background-image: url(Wartezimmer_1_by_M_Grambow.webp);"></div>
-            <div class="w-100 h-100 bg-cover" style="background-image: url(Sprechzimmer_1_by_M_Grambow.webp);"></div>
-            <div class="w-100 h-100 bg-cover" style="background-image: url(Roentgen3_by_MGrambow.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(_index/hero/Praxisrundschau_by_M_Grambow.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(_index/hero/Wartezimmer_2_by_M_Grambow.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(_index/hero/Wartezimmer_1_by_M_Grambow.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(_index/hero/Sprechzimmer_1_by_M_Grambow.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(_index/hero/Roentgen3_by_MGrambow.webp);"></div>
           </div>
 
           <!-- Shape -->
@@ -133,9 +130,11 @@ landkit:
         <p class="fs-lg text-body-secondary mb-6 px-lg-9">
           Unsere Ärzte und unser engagiertes Team freuen sich auf Sie.
         </p>
-        <a href="#!" class="btn btn-primary-desat lift">
+        <!-- TODO
+        <a href='{{% relref "ueber-uns/team" %}}' class="btn btn-primary lift">
           Lernen Sie uns kennen
         </a>
+        -->
 
       </div>
     </div>
@@ -143,11 +142,11 @@ landkit:
       <div class="flickity-button-white flickity-button-inset"
         data-flickity='{"pageDots": true,"cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
 
-        {{< flickity/image Team-Paul-Meyer_by_M_Grambow.jpg >}}
-        {{< flickity/image Team-Andreas-Bussmeyer_by_M_Grambow.jpg >}}
-        {{< flickity/image Team-Gerrit_Deitmar_by_M_Grambow.JPG >}}
-        {{< flickity/image Team-Silvia-Schuetz_by_M_Grambow.jpg >}}
-        {{< flickity/image MFA1_by_M_Grambow.webp>}}
+        {{< flickity/image "_index/slider/Team-Paul-Meyer_by_M_Grambow.jpg" >}}
+        {{< flickity/image "_index/slider/Team-Andreas-Bussmeyer_by_M_Grambow.jpg" >}}
+        {{< flickity/image "_index/slider/Team-Gerrit_Deitmar_by_M_Grambow.JPG" >}}
+        {{< flickity/image "_index/slider/Team-Silvia-Schuetz_by_M_Grambow.jpg" >}}
+        {{< flickity/image "_index/slider/MFA1_by_M_Grambow.webp" >}}
 
       </div>
     </div>
