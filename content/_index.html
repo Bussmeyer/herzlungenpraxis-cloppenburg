@@ -117,14 +117,8 @@ landkit:
   <!-- / .container -->
 </section>
 
-
 <!-- SHAPE -->
-<div class="position-relative mt-n10">
-  <div class="shape shape-bottom shape-fluid-x text-gray-200">
-    {{< shape "curves/curve-3">}}
-  </div>
-</div>
-
+{{< section/shape "curves/curve-3" "text-gray-200" "mt-n10" >}}
 
 <!-- GALLERY -->
 <section class="pt-10 pb-13 bg-gray-200">
@@ -149,11 +143,11 @@ landkit:
       <div class="flickity-button-white flickity-button-inset"
         data-flickity='{"pageDots": true,"cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
 
-        {{< flickity/image Team-IMG_7127.jpg>}}
-        {{< flickity/image portfolio-cover-1.jpg>}}
-        {{< flickity/image Team-Gerrit_Deitmar_by_M_Grambow.JPG>}}
-        {{< flickity/image Team-IMG_7125.jpg>}}
-        {{< flickity/image MFA1_by_M_Grambow.jpg>}}
+        {{< flickity/image Team-Paul-Meyer_by_M_Grambow.jpg >}}
+        {{< flickity/image Team-Andreas-Bussmeyer_by_M_Grambow.jpg >}}
+        {{< flickity/image Team-Gerrit_Deitmar_by_M_Grambow.JPG >}}
+        {{< flickity/image Team-Silvia-Schuetz_by_M_Grambow.jpg >}}
+        {{< flickity/image MFA1_by_M_Grambow.webp>}}
 
       </div>
     </div>
@@ -162,11 +156,7 @@ landkit:
 </section>
 
 <!-- SHAPE -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x text-dark">
-    {{< shape "curves/curve-1">}}
-  </div>
-</div>
+{{< section/shape "curves/curve-1" "text-dark" >}}
 
 <!-- FAQ -->
 <section class="pt-10 pb-12 bg-dark">
@@ -252,8 +242,4 @@ landkit:
 </section>
 
 <!-- SHAPE -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x text-gray-200">
-    {{< shape "curves/curve-1">}}
-  </div>
-</div>
+{{< section/shape "curves/curve-1" "text-gray-200" >}}
