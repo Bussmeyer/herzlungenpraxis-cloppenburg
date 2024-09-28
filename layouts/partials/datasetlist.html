@@ -1,5 +1,8 @@
 {{ $filterType := .type }}
-{{ $leistungen := where .context.Site.Data.leistungen.leistungen "type" $filterType }}
+{{ $parent := .context.Parent }}
+
+{{ $leistungenUnfiltered := ($parent.Resources.Get "leistungen.yaml" | transform.Unmarshal )}}
+{{ $leistungen := where $leistungenUnfiltered.leistungen "type" $filterType }}
 
 {{ $offset := .offset | default 0 }}
 {{ $limit := .limit | default 1000 }}
