@@ -10,6 +10,15 @@ hugo server
 # Helpful stuff
 <pre>{{ debug.Dump .Pages }}</pre>
 
+Image width 1400
+
+```
+cwebp -q 80 Praxisrundschau_by_M_Grambow.jpg -o Praxisrundschau_by_M_Grambow.webp
+```
+
+
+
+
 # LANDKIT Integration in Hugo
 - Get Landkit-2.3.0.zip
 - Extract it
@@ -41,6 +50,8 @@ hugo server
 
 # Current Domain
 beta.herzlungenpraxis-cloppenburg.de
+
+DNS kasserver.com
 
 # Information
 https://github.com/spech66/hugo-best-practices
