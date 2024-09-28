@@ -1,7 +1,7 @@
 {{ $iconPath := printf "icons/duotone-icons/%s.svg" (.Get "icon") }}
 {{ $link := (.Get "link") }}
 
-<div class="card col-12 col-md-4 border mb-5 me-5" data-aos="fade-up" data-aos-delay='{{ .Get "delay" }}'>
+<div class="card col-12 col-md-4 border border-gray-300 mb-5 me-5" data-aos="fade-up" data-aos-delay='{{ .Get "delay" }}'>
   <div class="card-body">
     <!-- Icon -->
     <div class="icon text-primary mb-3">{{ partial ($iconPath) }}</div>

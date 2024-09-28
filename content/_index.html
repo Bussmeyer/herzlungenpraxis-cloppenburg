@@ -117,15 +117,59 @@ landkit:
   <!-- / .container -->
 </section>
 
+
 <!-- SHAPE -->
-<div class="position-relative mt-n15">
+<div class="position-relative mt-n10">
+  <div class="shape shape-bottom shape-fluid-x text-gray-200">
+    {{< shape "curves/curve-3">}}
+  </div>
+</div>
+
+
+<!-- GALLERY -->
+<section class="pt-10 pb-13 bg-gray-200">
+  <div class="TODOcontainer">
+    <div class="row no-gutters justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 mb-6 text-center">
+
+        <!-- Heading -->
+        <h2 class="fw-bold">
+          Wir sind für Sie da
+        </h2>
+        <p class="fs-lg text-body-secondary mb-6 px-lg-9">
+          Unsere Ärzte und unser engagiertes Team freuen sich auf Sie.
+        </p>
+        <a href="#!" class="btn btn-primary-desat lift">
+          Lernen Sie uns kennen
+        </a>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="flickity-button-white flickity-button-inset"
+        data-flickity='{"pageDots": true,"cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
+
+        {{< flickity/image Team-IMG_7127.jpg>}}
+        {{< flickity/image portfolio-cover-1.jpg>}}
+        {{< flickity/image Team-Gerrit_Deitmar_by_M_Grambow.JPG>}}
+        {{< flickity/image Team-IMG_7125.jpg>}}
+        {{< flickity/image MFA1_by_M_Grambow.jpg>}}
+
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- SHAPE -->
+<div class="position-relative">
   <div class="shape shape-bottom shape-fluid-x text-dark">
     {{< shape "curves/curve-1">}}
   </div>
 </div>
 
 <!-- FAQ -->
-<section class="pt-15 pb-12 bg-dark">
+<section class="pt-10 pb-12 bg-dark">
   <div class="container pt-8 pt-md-11">
     <div class="row">
       <div class="col-12 col-md-6">
@@ -206,3 +250,10 @@ landkit:
   </div>
   <!-- / .container -->
 </section>
+
+<!-- SHAPE -->
+<div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x text-gray-200">
+    {{< shape "curves/curve-1">}}
+  </div>
+</div>
