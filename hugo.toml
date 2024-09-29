@@ -7,6 +7,8 @@ disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
 [params]
+useAltCSS = false  # Set to false to use the default CSS
+showMainMenu = true
 claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
 [params.contact]
   phone = '044716121'

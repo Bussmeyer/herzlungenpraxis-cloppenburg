@@ -1,0 +1,10 @@
+:root {
+  --bs-primary: #e14e11;
+  --bs-primary-rgb: 225, 78, 17;
+  --bs-primary-bg-subtle-rgb: 225, 78, 17;
+  --bs-btn-hover-bg: #eec8c8;
+}
+
+.btn-primary {
+  --bs-btn-hover-bg: #c7482b;
+}

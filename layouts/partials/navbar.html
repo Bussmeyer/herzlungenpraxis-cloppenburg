@@ -75,7 +75,7 @@ Renders a menu for the given menu ID.
   <div class="{{.container}}">
 
     <a class="navbar-brand" style="font-size: 100%;" href="{{ "/" | relURL }}">{{ site.Title }}</a>
-    {{- if false }}
+    {{- if .page.Site.Params.showMainMenu }}
     {{/*  TODO if rausnehmen  */}}
     <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -125,14 +125,14 @@ Renders a menu for the given menu ID.
         <div class="badge badge-lg badge-rounded-circle text-bg-primary-subtle mt-0 me-2">
           <span class="fe fe-phone"></span>
         </div>
-        <a href="tel:{{ site.Params.Contact.phone }}" class="h4 text-primary mt-2">
+        <a href="tel:{{ site.Params.Contact.phone }}" class="h4 text-body-secondary mt-2">
           {{ site.Params.Contact.phone_human }}
         </a>
 
         <div class="badge badge-lg badge-rounded-circle text-bg-primary-subtle mt-0 me-2 ms-6">
           <span class="fe fe-phone"></span>
         </div>
-        <a href="tel:{{ site.Params.Contact.phone2 }}" class="h4 text-primary mt-2">
+        <a href="tel:{{ site.Params.Contact.phone2 }}" class="h4 text-body-secondary mt-2">
           {{ site.Params.Contact.phone2_human }}
         </a>
         </p>
