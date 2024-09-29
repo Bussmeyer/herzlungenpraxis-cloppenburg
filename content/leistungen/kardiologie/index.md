@@ -10,7 +10,7 @@ params:
     - name: 'Dr. med. Paul Meyer'
       picture: Team-Paul-Meyer.jpg
     - name: 'Dr. med. Andreas Bußmeyer'
-      picture: Team-Andreas-Bußmeyer.jpg
+      picture: Team-Andreas-Bussmeyer.jpg
     - name: 'Dr. med. Silvia Schütz'
       picture: Team-Silvia-Schuetz.jpg
   footer: Roentgen3_by_MGrambow.webp
