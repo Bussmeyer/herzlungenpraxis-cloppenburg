@@ -1,6 +1,6 @@
 ---
 title: 'Kardiologie'
-draft: true
+draft: false
 summary: Kardiologie ist die Lehre vom Herzen und den Blutgefäßen. In diesem Fachbereich untersuchen und behandeln wir Erkrankungen wie Herzschwäche, Bluthochdruck oder Herzrhythmusstörungen. Unser Ziel ist es, Ihre Herzgesundheit zu erhalten und zu verbessern.
 params:
   hero: 'Ultraschallgeraet2_by_M_Grambow.webp'

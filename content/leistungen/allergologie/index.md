@@ -1,6 +1,6 @@
 ---
 title: 'Allergologie'
-draft: true
+draft: false
 summary: Allergologie ist der medizinische Fachbereich, der sich mit der Diagnose, Behandlung und Prävention von Allergien und allergischen Reaktionen auf verschiedene Substanzen wie Pollen, Nahrungsmittel oder Tierhaare beschäftigt.
 params:
   hero: Hausstaubmilbe_By_M_Grambow.webp
