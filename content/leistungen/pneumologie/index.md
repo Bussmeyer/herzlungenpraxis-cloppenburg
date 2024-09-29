@@ -6,6 +6,11 @@ params:
   hero: 'LuFu2_by_MGrambow.webp'
   type: 'pneumologie'
   limit: 4
+  team:
+    - name: 'Gerrit Deitmar'
+      picture: Team-Gerrit-Deitmar.jpg
+    - name: 'Ulrich Nerenz'
+      picture: Team-Ulrich-Nerenz.jpg
   footer: Blutdruckmessung_by_M_Grambow.webp
 aliases:
 - /pneumologie-allergologie-schlafmedizin

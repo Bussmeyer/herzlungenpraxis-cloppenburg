@@ -6,6 +6,13 @@ params:
   hero: 'Ultraschallgeraet2_by_M_Grambow.webp'
   type: 'kardiologie'
   limit: 6
+  team:
+    - name: 'Dr. med. Paul Meyer'
+      picture: Team-Paul-Meyer.jpg
+    - name: 'Dr. med. Andreas Bußmeyer'
+      picture: Team-Andreas-Bußmeyer.jpg
+    - name: 'Dr. med. Silvia Schütz'
+      picture: Team-Silvia-Schuetz.jpg
   footer: Roentgen3_by_MGrambow.webp
 aliases:
 - /kardiologie

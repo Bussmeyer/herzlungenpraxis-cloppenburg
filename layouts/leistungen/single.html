@@ -79,7 +79,7 @@
 </div>
 
 <!-- LEISTUNGEN 2 -->
-<section class="pb-10 pt-15 bg-dark">
+<section class="pt-15 pb-10 bg-dark">
     <div class="container">
         
       <!-- Leistungen -->
@@ -88,9 +88,10 @@
     </div>
 </section>
 
-<section class="pt-10 pb-15 pt-md-11 bg-dark">
+<!-- TEAM -->
+<section class="pt-10 pb-15 bg-dark">
   <div class="container">
-    
+
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-8 text-center">
 
@@ -101,11 +102,47 @@
 
       </div>
     </div>
+    
+    <div class="row">
+      
+      {{ range .Params.team }}
+        <div class="col-12 col-md-6 col-lg-4 d-flex mb-8">
 
-    <!-- Team -->
-    <p class="text-white text-opacity-75 mb-0">TODO: Verlinkte Teaser auf Ärzte
-    Verantwortliche Ärzt:innen sind Dr. med. Paul Meyer, Dr. med. Silvia Schütz und Dr. med. Andreas Bußmeyer.</p>
+          <!-- Card -->
+          <div class="card shadow-light-lg lift lift-lg">
+  
+            <!-- Image -->
+            <a class="card-img-top" href="#!">
+  
+              <!-- Image -->
+              <img src="/_index/slider/{{ .picture }}" alt="{{ .name }}" class="card-img-top">
+  
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-bottom shape-fluid-x text-white">
+                  {{ partial "shapes/curves/curve-3.svg"}}
+                </div>
+              </div>
+  
+            </a>
+  
+            <!-- Body -->
+            <a class="card-body" href="#!">
+  
+              <!-- Heading -->
+              <h3>
+                {{ .name }}
+              </h3>
+  
+            </a>
+  
+          </div>
+  
+        </div>
+      {{ end }}
 
+    </div> <!-- / .row -->
+  
   </div> <!-- / .container -->
 </section>
 
