@@ -8,7 +8,7 @@ enableRobotsTXT = true
 
 [params]
 useAltCSS = true  # Set to false to use the default CSS
-showMainMenu = true
+showMainMenu = false
 claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
 [params.contact]
   phone = '044716121'
