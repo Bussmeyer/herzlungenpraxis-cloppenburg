@@ -16,7 +16,12 @@ Image width 1400
 cwebp -q 80 Praxisrundschau_by_M_Grambow.jpg -o Praxisrundschau_by_M_Grambow.webp
 ```
 
-
+# Layout Structure
+section 1: border-bottom border-gray-300
+section 2: bg-gradient-light-white
+section 3: bg-gray-200
+section 4: bg-dark
+footer: bg-gray-200
 
 
 # LANDKIT Integration in Hugo
