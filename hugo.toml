@@ -7,8 +7,7 @@ disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
 [params]
-useAltCSS = false  # Set to false to use the default CSS
-showMainMenu = false
+showMainMenu = true
 claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
 [params.contact]
   phone = '044716121'
@@ -59,40 +58,40 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
     weight = 5
 
 # Über uns
-  [[menus.main]]
-    name = 'Über uns'
-    pageRef = '/ueber-uns'
-    weight = 30
-  [[menus.main]]
-    name = 'Unsere Ärzte'
-    #post = 'Lorem ipsum dolor sit amet'
-    pageRef = '/ueber-uns/team'
-    parent = 'Über uns'
-    weight = 1
-  [[menus.main]]
-    name = 'Unsere Praxis'
-    #post = 'Lernen Sie Team und Praxis kennen'
-    pageRef = '/ueber-uns/praxis'
-    parent = 'Über uns'
-    weight = 2
-  [[menus.main]]
-    name = 'Stellenangebote'
-    #post = 'Lorem ipsum dolor sit amet'
-    pageRef = '/ueber-uns/karriere'
-    parent = 'Über uns'
-    weight = 4
+#  [[menus.main]]
+#    name = 'Über uns'
+#    pageRef = '/ueber-uns'
+#    weight = 30
+#  [[menus.main]]
+#    name = 'Unsere Ärzte'
+#    #post = 'Lorem ipsum dolor sit amet'
+#    pageRef = '/ueber-uns/team'
+#    parent = 'Über uns'
+#    weight = 1
+#  [[menus.main]]
+#    name = 'Unsere Praxis'
+#    #post = 'Lernen Sie Team und Praxis kennen'
+#    pageRef = '/ueber-uns/praxis'
+#    parent = 'Über uns'
+#    weight = 2
+#  [[menus.main]]
+#    name = 'Stellenangebote'
+#    #post = 'Lorem ipsum dolor sit amet'
+#    pageRef = '/ueber-uns/karriere'
+#    parent = 'Über uns'
+#    weight = 3
 
 # Patienteninformationen
   [[menus.main]]
     name = 'Patienteninformationen'
     pageRef = '/informationen'
     weight = 40
-  [[menus.main]]
-    name = 'Kontakt & Anfahrt'
-    post = ''
-    pageRef = '/informationen/kontakt'
-    parent = 'Patienteninformationen'
-    weight = 1
+#  [[menus.main]]
+#    name = 'Kontakt & Anfahrt'
+#    post = ''
+#    pageRef = '/informationen/kontakt'
+#    parent = 'Patienteninformationen'
+#    weight = 1
   [[menus.main]]
     name = 'Häufige Fragen'
     post = ''

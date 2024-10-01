@@ -10,13 +10,3 @@
     {{- end }}
   {{- end }}
 {{- end }}
-
-{{ if .Site.Params.useAltCSS }}
-  {{- with resources.Get "css/orange.css" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{ end }}
-{{ else }}
-  {{- with resources.Get "css/blue.css" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{ end }}
-{{ end }}
