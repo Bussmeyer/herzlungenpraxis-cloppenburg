@@ -18,8 +18,9 @@ style-src 'self' 'unsafe-inline'
 
 <meta property="og:title" content="{{ site.Title }}">
 <meta property="og:description" content="{{ site.Params.claim }}">
-<meta property="og:image" content="_index/hero/Praxisrundschau_by_M_Grambow.webp">
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.og_image | default "_index/og/Praxisrundschau_by_M_Grambow.jpg" }}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
 
 {{ $favicon := resources.Get "favicon/favicon.ico" }}
 <link rel="icon" href="{{ $favicon.RelPermalink }}" type="image/x-icon">
