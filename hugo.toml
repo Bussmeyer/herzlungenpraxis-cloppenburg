@@ -7,7 +7,7 @@ disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
 [params]
-showMainMenu = true
+showMainMenu = false
 claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
 [params.contact]
   phone = '044716121'
