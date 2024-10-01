@@ -16,6 +16,11 @@ style-src 'self' 'unsafe-inline'
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<meta property="og:title" content="{{ site.Title }}">
+<meta property="og:description" content="{{ site.Params.claim }}">
+<meta property="og:image" content="_index/hero/Praxisrundschau_by_M_Grambow.webp">
+<meta property="og:type" content="website">
+
 {{ $favicon := resources.Get "favicon/favicon.ico" }}
 <link rel="icon" href="{{ $favicon.RelPermalink }}" type="image/x-icon">
 
