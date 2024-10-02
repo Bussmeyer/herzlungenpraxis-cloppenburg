@@ -12,6 +12,11 @@ hugo server
 
 Image width 1400
 
+Make website available on local network
+```
+hugo server --bind 192.168.55.181 --baseURL http://192.168.55.181 --port 8080
+```
+
 ```
 cwebp -q 80 Praxisrundschau_by_M_Grambow.jpg -o Praxisrundschau_by_M_Grambow.webp
 ```
