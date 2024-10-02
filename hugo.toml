@@ -18,6 +18,7 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
   mail = 'info@herzlungenpraxis-cloppenburg.de'
   street = 'Antoniusplatz 10'
   city = '49661 Cloppenburg'
+  google_business = 'https://maps.app.goo.gl/azNCfmVBkUto4Y7v6'
 
 
 [markup]
