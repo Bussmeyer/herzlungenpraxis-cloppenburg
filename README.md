@@ -40,8 +40,10 @@ footer: bg-gray-200
   - // import './dropzone';
   - // import './highlight';
   - // import './isotope';
+  - // import './jarallax';
   - // import './map';
   - // import './popover';
+  - // import './pricing';
   - // import './quill';
   - // import './typed';
 - In src/scss/theme/_vendor.scss remove the following
@@ -50,6 +52,7 @@ footer: bg-gray-200
   - // @import "vendor/dropzone";
   - // @import "vendor/highlight";
   - // @import "vendor/quill";
+  - // import './tooltip';
 - In src/scss/libs.scss
   - // @import 'highlight.js/styles/vs2015.css';
   - // @import 'quill/dist/quill.core.css';
