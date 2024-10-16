@@ -6,6 +6,13 @@ disableHugoGeneratorInject = true
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
+
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+
 [params]
 showMainMenu = false
 claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
