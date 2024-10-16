@@ -36,7 +36,7 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
   [[menus.main]]
     name = 'Kardiologie'
     post = 'Herzgesundheit erhalten'
-    pageRef = '/leistungen/kardiologie'
+    pageRef = '/leistungen/kardiologie/'
     parent = 'Leistungen'
     weight = 2
   [[menus.main]]
@@ -96,7 +96,7 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
   [[menus.main]]
     name = 'Häufige Fragen'
     post = ''
-    pageRef = '/informationen/faq'
+    pageRef = '/informationen/faq/'
     parent = 'Patienteninformationen'
     weight = 2
 
