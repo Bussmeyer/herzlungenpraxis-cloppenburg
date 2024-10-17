@@ -6,7 +6,7 @@ params:
   type: kardiologie
   picture: Team-Silvia-Schuetz.jpg
 ---
-### Fachbereiche
+### Qualifikationen
 - Fachärztin für Innere Medizin, Internistin
 - Fachärztin für Innere Medizin und Kardiologie, Kardiologin
 - Herzschrittmacher und CRT, Sachkunde Deutsche Gesellschaft für Kardiologie (DGK)

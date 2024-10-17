@@ -1,5 +1,5 @@
 ---
-title: Unsere Ärzte
+title: Unser Ärzteteam
 summary: Unsere Ärzte und unser engagiertes Team freuen sich auf Sie. 
 draft: false
 aliases:

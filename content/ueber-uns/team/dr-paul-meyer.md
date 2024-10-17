@@ -6,7 +6,7 @@ params:
   type: kardiologie
   picture: Team-Paul-Meyer.jpg
 ---
-### Fachbereiche
+### Qualifikationen
 - Facharzt für Innere Medizin
 - Kardiologie
 - Zusatzqualifikation Interventionelle Kardiologie (DGK)

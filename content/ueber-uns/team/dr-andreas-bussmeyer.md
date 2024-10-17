@@ -6,7 +6,7 @@ params:
   type: kardiologie
   picture: Team-Andreas-Bussmeyer.jpg
 ---
-### Fachbereiche
+### Qualifikationen
 - Facharzt für Innere Medizin und Kardiologie
 - Zusatzbezeichnung Rettungsmedizin
 - Kardiologischer Kooperationspartner für Herzkatheteruntersuchungen/ -interventionen im Herzkatheterlabor des St.-Marien-Hospitals in Vechta

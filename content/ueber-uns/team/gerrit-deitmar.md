@@ -6,7 +6,7 @@ params:
   type: pneumologie
   picture: Team-Gerrit-Deitmar.jpg
 ---
-### Fachbereiche
+### Qualifikationen
 - Facharzt für Innere Medizin
 - Lungen- und Bronchialheilkunde
 - Allergologie
