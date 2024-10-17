@@ -1,0 +1,6 @@
+{{- $classes := "py-10 py-md-14 bg-cover overlay overlay-black overlay-60" }}
+{{- $bgimage := (.Get 0) }}
+
+{{- $inner := .Inner }}
+
+{{ partial "pagesection" (dict "context" . "classes" $classes "bgimage" $bgimage ) }}

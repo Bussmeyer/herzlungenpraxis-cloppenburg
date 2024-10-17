@@ -8,22 +8,20 @@ aliases:
 ---
 
 <!-- WELCOME -->
-<section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url(Unterscheibender_by_M_Grambow.webp);">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8 text-center">
+{{< section/hero "Unterscheibender_by_M_Grambow.webp">}}
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
 
-        <!-- Heading -->
-        <h1 class="display-2 mb-5 fw-bold text-white">
-          Kontakt & Anfahrt
-        </h1>
-        <a href="{{< getconfig "contact.google_business" >}}" class="btn btn-primary lift" target="_blank">
-          In Google Maps öffnen  <i class="fe fe-arrow-right ms-2"></i>
-        </a>
-      </div>
-    </div> <!-- / .row -->
-  </div> <!-- / .container -->
-</section>
+      <!-- Heading -->
+      <h1 class="display-2 mb-5 fw-bold text-white">
+        Kontakt & Anfahrt
+      </h1>
+      <a href="{{< getconfig "contact.google_business" >}}" class="btn btn-primary lift" target="_blank">
+        In Google Maps öffnen  <i class="fe fe-arrow-right ms-2"></i>
+      </a>
+    </div>
+  </div> <!-- / .row -->
+{{< /section/hero >}}
 
 {{< section/shape "curves/curve-1" "text-light" >}}
 
