@@ -72,7 +72,6 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
 #    weight = 30
 #  [[menus.main]]
 #    name = 'Unsere Ärzte'
-#    #post = 'Lorem ipsum dolor sit amet'
 #    pageRef = '/ueber-uns/team'
 #    parent = 'Über uns'
 #    weight = 1
@@ -83,7 +82,6 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
 #    weight = 2
 #  [[menus.main]]
 #    name = 'Stellenangebote'
-#    #post = 'Lorem ipsum dolor sit amet'
 #    pageRef = '/ueber-uns/karriere'
 #    parent = 'Über uns'
 #    weight = 3
