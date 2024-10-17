@@ -1,0 +1,20 @@
+{{- $page := .Page.Site.GetPage (.Get 0) }}
+
+
+<!-- Item -->
+<div class="d-flex">
+    <!-- Badge -->
+    <div class="badge badge-lg badge-rounded-circle text-bg-primary">
+        <span>?</span>
+    </div>
+
+    <div class="ms-5">
+        <!-- Heading -->
+        <h4 class="text-white">{{ $page.Title }}</h4>
+
+        <!-- Text -->
+        <div class="text-gray-400 mb-6 mb-md-8">
+           {{ $page.Content }}
+        </div>
+    </div>
+</div>

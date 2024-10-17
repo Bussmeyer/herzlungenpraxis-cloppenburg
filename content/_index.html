@@ -62,19 +62,14 @@ landkit:
             Kontakt & Sprechstunde
           </button>
 
-          <!-- TODO Link wieder einblenden -->
-          <!--
-          <a href="{{ relref "informationen/kontakt" >}}" class="btn btn-primary-subtle lift">
+          <a href="{{< relref "informationen/kontakt" >}}" class="btn btn-primary-subtle lift">
             Anfahrt
           </a>
-          -->
 
         </div>
 
       </div>
 
-
-      
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
@@ -105,9 +100,17 @@ landkit:
           icon="code/question-circle"
           headline="Häufig gestellte Fragen" 
           copy="Hier finden Sie Antworten auf häufig gestellte Fragen rund um unsere Praxis, Behandlungen und Terminvereinbarungen."
-          link="informationen/faq"
+          link="informationen/faq/"
           delay="100"
         >}}
+        <!--
+        {{< card
+          icon="communication/add-user"
+          headline="Achtung: Telefonstörung"
+          copy="Aufgrund einer technischen Störung sind wir aktuell telefonisch nicht erreichbar. Die Telekom arbeitet an einer Lösung."
+          delay="100"
+        >}}
+        -->
         {{< card 
           icon="code/time-schedule"
           headline="Veränderte Sprechzeiten" 
@@ -122,7 +125,6 @@ landkit:
   <!-- / .container -->
 </section>
 
-<!-- SHAPE -->
 {{< section/shape "curves/curve-3" "text-gray-200" "mt-n10" >}}
 
 <!-- GALLERY -->
@@ -149,11 +151,11 @@ landkit:
       <div class="flickity-button-white flickity-button-inset"
         data-flickity='{"pageDots": true, "autoPlay": true, "cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
 
-        {{< flickity/image "_index/slider/Team-Paul-Meyer.jpg" >}}
-        {{< flickity/image "_index/slider/Team-Ulrich-Nerenz.jpg" >}}
-        {{< flickity/image "_index/slider/Team-Andreas-Bussmeyer.jpg" >}}
-        {{< flickity/image "_index/slider/Team-Gerrit-Deitmar.jpg" >}}
-        {{< flickity/image "_index/slider/Team-Silvia-Schuetz.jpg" >}}
+        {{< flickity/image "_index/doctors/Team-Paul-Meyer.jpg" >}}
+        {{< flickity/image "_index/doctors/Team-Ulrich-Nerenz.jpg" >}}
+        {{< flickity/image "_index/doctors/Team-Andreas-Bussmeyer.jpg" >}}
+        {{< flickity/image "_index/doctors/Team-Gerrit-Deitmar.jpg" >}}
+        {{< flickity/image "_index/doctors/Team-Silvia-Schuetz.jpg" >}}
 
       </div>
     </div>
@@ -161,7 +163,6 @@ landkit:
   </div>
 </section>
 
-<!-- SHAPE -->
 {{< section/shape "curves/curve-1" "text-dark" >}}
 
 <!-- FAQ -->
@@ -169,73 +170,20 @@ landkit:
   <div class="container pt-8 pt-md-11">
     <div class="row">
       <div class="col-12 col-md-6">
-        <!-- Item -->
-        <div class="d-flex">
-          <!-- Badge -->
-          <div class="badge badge-lg badge-rounded-circle text-bg-primary">
-            <span>?</span>
-          </div>
-
-          <div class="ms-5">
-            <!-- Heading -->
-            <h4 class="text-white">Termine können in unserer Praxis nur als ungefähre Richtwerte dienen</h4>
-
-            <!-- Text -->
-            <ul class="text-gray-400">
-              <li>Wir versorgen täglich eine Vielzahl von Notfällen. 
-              <li>Selbstverständlich behandeln wir hochbetagte, gebrechliche und schwer erkrankte Patienten bevorzugt. </li>
-              <li>Oftmals erhalten wir kurzfristige Anfragen von Hausärzten, die um dringende Untersuchungen bitten. </li>
-              <li>Viele unserer Patienten kommen aus weiter entfernten Regionen, daher bemühen wir uns, ihre Anliegen an einem Tag umfassend zu klären. Dies kann zu längeren Aufenthalten in unserer Praxis führen. </li>
-              <li>Bitte beachten Sie auch, dass sich im Wartezimmer Patienten befinden, die bei unterschiedlichen Ärzten angemeldet sind, so dass nicht zwingend „der Reihe nach“ aufgerufen wird.</li>
-              </ul>
-            <p class="text-gray-400">Wir danken Ihnen herzlich für Ihr Verständnis!
-            </p>
-          </div>
-        </div>
+        
+        {{< faq "005" >}}
 
       </div>
       <div class="col-12 col-md-6">
         
-        <!-- Item -->
-        <div class="d-flex">
-          <!-- Badge -->
-          <div class="badge badge-lg badge-rounded-circle text-bg-primary">
-            <span>?</span>
-          </div>
+        {{< faq "001" >}}
 
-          <div class="ms-5">
-            <!-- Heading -->
-            <h4 class="text-white">Nehmen Sie Neupatienten auf?</h4>
-
-            <!-- Text -->
-            <p class="text-gray-400 mb-6 mb-md-8">
-              Ja, bitte melden Sie sich telefonisch bei uns für eine Terminvereinbarung. In dringenden Fällen wenden Sie sich bitte mit einem Dringlichkeitscode Ihres Hausarztes an die Terminservicestelle der Kassenärztlichen Vereinigung unter der Telefonnummer 116 117.
-            </p>
-          </div>
-        </div>
-        
-        <!-- Item -->
-        <div class="d-flex">
-          <!-- Badge -->
-          <div class="badge badge-lg badge-rounded-circle text-bg-primary">
-            <span>?</span>
-          </div>
-
-          <div class="ms-5">
-            <!-- Heading -->
-            <h4 class="text-white">Behandeln Sie auch Kinder?</h4>
-
-            <!-- Text -->
-            <p class="text-gray-400 mb-6 mb-md-8">
-              In unserer Praxis behandeln wir gern Kinder und Jugendliche ab dem Alter von 6 Jahren. Auf die Behandlung von jüngeren Kindern sind wir leider nicht eingestellt. Bitte fragen Sie Ihren behandelnden Kinderarzt nach einer passenden Praxis.
-            </p>
-          </div>
-        </div>
+        {{< faq "002" >}}
 
         <!-- Item -->
         <div class="d-flex">
           <div class="ms-8">
-            <a href="{{< relref "informationen/faq" >}}" class="btn btn-primary lift">
+            <a href="{{< relref "informationen/faq/" >}}" class="btn btn-primary lift">
               Ich habe weitere Fragen <i class="fe fe-arrow-right ms-2"></i>
             </a>
           </div>
@@ -247,5 +195,4 @@ landkit:
   <!-- / .container -->
 </section>
 
-<!-- SHAPE -->
 {{< section/shape "curves/curve-1" "text-gray-200" >}}

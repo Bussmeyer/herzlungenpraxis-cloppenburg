@@ -2,6 +2,7 @@
 {{- $colorClass := (.Get 1) -}}
 {{- $positonClass := (.Get 2) -}}
 
+<!-- SHAPE -->
 <div class="position-relative{{ if $positonClass }} {{ $positonClass }}{{ end }}">
     <div class="shape shape-bottom shape-fluid-x {{ $colorClass }}">
         {{ partial ($shapePath) }}

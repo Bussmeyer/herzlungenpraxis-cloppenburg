@@ -1,13 +1,12 @@
 ---
-draft: true
+draft: false
 landkit:
 - https://landkit.goodthemes.co/contact.html als grundsätzliches
 - https://landkit.goodthemes.co/coworking.html kartenmodul nutzen
 aliases:
 - /kontaktdaten
 ---
-Bis voraussichtlich Frühjahr 2025 wird vor unserem Haus der Parkplatz renoviert. Planen Sie deshalb ein bisschen mehr Zeit für Ihre Anreise ein. 
-Weichen Sie gern auf den nahegelegenen Parkplatz -Auf dem Hook- aus. Bei einer Geh- oder Sehbehinderung können sich bringen lassen. Dabei kann der Bereich an der Einmündung -Hinterm Wall- direkt an der Ecke der Häuserzeile als Kurzhaltezone zum Ein- und Aussteigen genutzt werden. TODO Länge TODO Absätze
+
 <!-- WELCOME -->
 <section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url(Unterscheibender_by_M_Grambow.webp);">
   <div class="container">
@@ -15,26 +14,18 @@ Weichen Sie gern auf den nahegelegenen Parkplatz -Auf dem Hook- aus. Bei einer G
       <div class="col-12 col-md-10 col-lg-8 text-center">
 
         <!-- Heading -->
-        <h1 class="display-2 fw-bold text-white">
-          We’re Here to Help.
+        <h1 class="display-2 mb-5 fw-bold text-white">
+          Kontakt & Anfahrt
         </h1>
-
-        <!-- Text -->
-        <p class="lead text-white text-opacity-75 mb-0">
-          We always want to hear from you! Let us know how we can best help you and we'll do our very best.
-        </p>
-
+        <a href="{{< getconfig "contact.google_business" >}}" class="btn btn-primary lift" target="_blank">
+          In Google Maps öffnen  <i class="fe fe-arrow-right ms-2"></i>
+        </a>
       </div>
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
 
-<!-- SHAPE -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x text-light">
-    {{< shape "curves/curve-1">}}
-  </div>
-</div>
+{{< section/shape "curves/curve-1" "text-light" >}}
 
 <!-- INFO -->
 <section class="py-7 py-md-9 border-bottom border-gray-300" id="info">
@@ -54,13 +45,14 @@ Weichen Sie gern auf den nahegelegenen Parkplatz -Auf dem Hook- aus. Bei einer G
 
         <!-- Heading -->
         <h6 class="text-uppercase text-gray-700 mb-1">
-          Message us
+          Adresse
         </h6>
 
         <!-- Link -->
         <div class="mb-5 mb-md-0">
-          <a href="#!" class="h4 text-primary">
-            Start a chat!
+          <a href="{{< getconfig "contact.google_business" >}}" class="h4 text-primary" target="_blank">
+            {{< getconfig "contact.street" >}}<br>
+            {{< getconfig "contact.city" >}}
           </a>
         </div>
 
@@ -69,14 +61,13 @@ Weichen Sie gern auf den nahegelegenen Parkplatz -Auf dem Hook- aus. Bei einer G
 
         <!-- Heading -->
         <h6 class="text-uppercase text-gray-700 mb-1">
-          Call anytime
+          Telefon
         </h6>
 
         <!-- Link -->
         <div class="mb-5 mb-md-0">
-          <a href="#!" class="h4">
-            (555) 123-4567
-          </a>
+            <a href="tel:{{< getconfig "contact.phone" >}}" class="h4 text-primary">{{< getconfig "contact.phone_human" >}}</a><br>
+            <a href="tel:{{< getconfig "contact.phone2" >}}" class="h4 text-primary">{{< getconfig "contact.phone2_human" >}}</a>            
         </div>
 
       </div>
@@ -84,91 +75,191 @@ Weichen Sie gern auf den nahegelegenen Parkplatz -Auf dem Hook- aus. Bei einer G
 
         <!-- Heading -->
         <h6 class="text-uppercase text-gray-700 mb-1">
-          Email us
+          Fax
         </h6>
 
         <!-- Link -->
-        <a href="#!" class="h4">
-          support@goodthemes.co
-        </a>
+        <span class="h4 text-primary">
+          {{< getconfig "contact.fax_human" >}}
+        </span>
 
       </div>
     </div> <!-- / .row -->
   </div>
 </section>
 
-<!-- LOCATION -->
-<section class="pt-8 pt-md-0 border-bottom">
+<!-- HOURS -->
+<section class="py-7 py-md-9 bg-gradient-light-white" id="info">
   <div class="container">
+
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 text-center">
+        <h2>Sprechstunde</h2>
+      </div>
+    </div>
 
-        <!-- Map (mobile) -->
-        <div class="ratio ratio-1x1 d-md-none">
-          <div data-map='{"center": [-118.244615, 34.052979], "zoom": 12}'></div>
-        </div>
+    <div class="row">
+      <div class="col-10 offset-2">
+        <dl class="row fs-lg mb-4">
+          <dt class="col-sm-3">Montag</dt>
+          <dd class="col-sm-9">8 - 13 und 15 - 18 Uhr</dd>
+          <dt class="col-sm-3">Dienstag</dt>
+          <dd class="col-sm-9">8 - 13 und 15 - 18 Uhr</dd>
+          <dt class="col-sm-3">Mittwoch</dt>
+          <dd class="col-sm-9">8 - 13 Uhr</dd>
+          <dt class="col-sm-3">Donnerstag</dt>
+          <dd class="col-sm-9">8 - 13 und 15 - 18 Uhr</dd>
+          <dt class="col-sm-3">Freitag</dt>
+          <dd class="col-sm-9">8 - 13 Uhr</dd>
+        </dl>
+        
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-10 offset-1 mb-9 text-center">
+        <p class="fs-lg text-gray-700 mb-4 mb-md-6">
+          Termine sind nach telefonischer Vereinbarung auch außerhalb dieser Zeiten möglich.
+        </p>
+      </div>
+    </div>
 
-        <!-- Map -->
-        <div class="position-relative h-100 vw-50 float-end d-none d-md-block
-          ">
+    <div class="row">
+      <div class="col-12 mb-6 col-md-6 col-xl-5 offset-xl-1 text-center">
 
-          <!-- Map -->
-          <div class="w-100 h-100" data-map='{"center": [-118.244615, 34.052979], "zoom": 12}'></div>
-
-          <!-- Shape -->
-          <div class="shape shape-end shape-fluid-y svg-shim text-white">
-            {{> angles/angle-end}}
+        <div class="card card-border card-border-xl border-secondary shadow-lg">
+          <div class="card-body">
+            <div class="card-title">
+              <span class="h4 me-3">Kardiologie</span> 
+              <div class="me-3 badge badge-lg badge-rounded-circle text-bg-primary-desat-subtle">
+                <i class="fe fe-arrow-right"></i>
+              </div>
+              <span class="h4">1. Stock</span>
+            </div>
+            <p class="card-text">Zur Anmeldung für die Kardiologie kommen Sie bitte in den 1. Stock.</p>
           </div>
-
         </div>
 
       </div>
-      <div class="col-12 col-md-6 col-lg-5 offset-lg-1 py-8 py-md-11 py-lg-12">
+
+      <div class="col-12 mb-6 col-md-6 col-xl-5 text-center">
+        <div class="card card-border card-border-xl border-primary shadow-lg">
+          <div class="card-body">
+            <div class="card-title">
+              <span class="h4 me-3">Pneumologie</span> 
+              <div class="me-3 badge badge-lg badge-rounded-circle text-bg-primary-desat-subtle">
+                <i class="fe fe-arrow-right"></i>
+              </div>
+              <span class="h4">2. Stock</span>
+            </div>
+            <p class="card-text">Zur Anmeldung für die Pneumologie kommen Sie bitte in den 2. Stock.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="fs-lg text-gray-700 mb-6 mb-md-6">
+          Unsere Praxis ist barrierearm und verfügt über einen Fahrstuhl.
+        </p>
+      </div>
+    </div>
+      
+  </div>
+</section>
+
+<!-- LOCATION CAR -->
+<section class="pt-8 pt-md-0 bg-gray-200">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        
+        <div class="d-md-none img-cover"
+          data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": false}'>
+          <div class="w-100"><img src="map01.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="map02.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="map03.webp" class="img-fluid"></div>
+          <div class="w-100"><img src="map04.webp" class="img-fluid"></div>
+        </div>
+
+        <!-- Slider -->
+        <div class="position-relative h-100 vw-50 float-end d-none d-md-block" data-aos="fade-left">
+          <!-- Slider -->
+          <div class="flickity-button-bottom flickity-button-dark h-100 w-100"
+            data-flickity='{"imagesLoaded": true, "setGallerySize": false, "wrapAround": true, "pageDots": false, "autoPlay": false, "lazyLoad": true}'>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(map01.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(map02.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(map03.webp);"></div>
+            <div class="w-100 h-100 bg-cover" style="background-image: url(map04.webp);"></div>
+            
+          </div>
+
+          <!-- Shape -->
+          <div class="shape shape-end shape-fluid-y svg-shim text-gray-200">
+            {{< shape "angles/angle-end">}}
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-5 offset-lg-1 py-8 py-md-10">
 
         <!-- Heading -->
         <h2>
-          Over <span data-countup='{"startVal": 100}' data-to="400" data-aos data-aos-id="countup:in">100</span>
-          locations spread <br>
-          <span class="text-success">across the entire planet</span>.
+          Anfahrt mit dem <span class="text-primary">Auto</span>
         </h2>
+        <p class="fs-lg text-gray-700 mb-6 mb-md-6">
+          Über B68, B213 oder B72
+        </p>
 
         <!-- Text -->
         <p class="fs-lg text-gray-700 mb-6 mb-md-6">
-          We picked our office locations to maximize our availability to you! We try to keep locations in every major
-          city, as well as common vacatino destinations in case you need to sneak work in on the side.
+          <strong>Achtung:</strong> Bis voraussichtlich Frühjahr 2025 wird vor unserem Haus der Parkplatz renoviert. Planen Sie deshalb ein bisschen mehr Zeit für Ihre Anreise ein.
+        </p>
+        <p class="fs-lg text-gray-700 mb-6 mb-md-6">
+          Weichen Sie gern auf den nahegelegenen Parkplatz <a href="https://maps.app.goo.gl/x5o4wT6wpPo5WDKF7" class="text-primary" target="_blank">"Auf dem Hook"</a> aus. Bei einer Geh- oder Sehbehinderung können sich bringen lassen. Dabei kann der Bereich an der Einmündung „Hinterm Wall“ direkt an der Ecke der Häuserzeile als Kurzhaltezone zum Ein- und Aussteigen genutzt werden.
         </p>
 
-        <!-- Stats -->
-        <div class="d-flex">
-          <div class="pe-5">
-            <h3 class="text-success mb-0">
-              125
-            </h3>
-            <p class="text-gray-700 mb-0">
-              Countries
-            </p>
-          </div>
-          <div class="border-start"></div>
-          <div class="px-5">
-            <h3 class="text-success mb-0">
-              312
-            </h3>
-            <p class="text-gray-700 mb-0">
-              Cities
-            </p>
-          </div>
-          <div class="border-start"></div>
-          <div class="ps-5">
-            <h3 class="text-success mb-0">
-              40,000
-            </h3>
-            <p class="text-gray-700 mb-0">
-              Desks
-            </p>
-          </div>
-        </div>
+        <a href="{{< getconfig "contact.google_business" >}}" class="btn btn-primary lift" target="_blank">
+          In Google Maps öffnen  <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+<!-- LOCATION ÖPNV -->
+<section class="pt-8 pt-md-0 bg-dark">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 offset-lg-1 py-8 py-md-11 py-lg-12">
+
+        <!-- Heading -->
+        <h2 class="text-white">
+          Anfahrt mit <span class="text-primary">öffentlichen Verkehrsmitteln</span>
+        </h2>
+
+        <!-- Text -->
+        <ul class="fs-lg text-gray-400 mb-6 mb-md-6">
+          <li>Mit Nordwestbahn RE 18 oder Bus bis Cloppenburg Bahnhof,</li>
+          <li>von dort mit den Buslinien S90, 900 oder 950 bis „Cloppenburg Hook“</li>
+          <li>von dort sind es noch 450 m Fußweg bis zu unserer Praxis</li>
+        </ul>
+
+        <p class="fs-lg text-gray-400 mb-6 mb-md-6">
+          Über Bahnverbindungen nach Cloppenburg informieren Sie sich bitte unter <a href="//www.nordwestbahn.de/" class="text-primary">https://www.nordwestbahn.de/ </a>
+        </p>
+        <p class="fs-lg text-gray-400 mb-6 mb-md-6">
+          Über weitere Buslinien nach Cloppenburg informieren Sie sich bitte unter <a href="https://www.bus-clp.de/" class="text-primary">https://www.bus-clp.de/</a>
+        </p>
 
       </div>
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
+
+{{< section/shape "curves/curve-1" "text-gray-200" >}}
