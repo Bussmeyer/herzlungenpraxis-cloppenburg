@@ -1,0 +1,35 @@
+{{- $inner := . -}}
+{{- $inner = markdownify $inner -}}
+
+{{/* Extract image */}}
+{{- $regex := `(?s)<p><img.*?p>` -}}
+{{- $image := index (findRE $regex $inner 1) 0 -}}
+{{- $imagesrc := index (split $image `"`) 1 -}}
+
+{{/* Extract Link */}}
+{{- $regex := `<a\s*href="(.+?)">(.+?)</a>` -}}
+{{- $matches := findRESubmatch $regex $inner 1 -}}
+{{- $href:= index (index $matches 0) 1 -}}
+{{- $linktext := index (index $matches 0) 2 -}}
+
+{{/* Extract Heading */}}
+{{- $regex := `<h1\s*id="(.+?)">(.+?)</h1>` -}}
+{{- $matches := findRESubmatch $regex $inner 1 -}}
+{{- $heading := index (index $matches 0) 2 | safeHTML -}}
+
+<section class="py-10 py-md-14 bg-cover overlay overlay-black overlay-60" style="background-image: url({{ $imagesrc }});">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 text-center">
+                <h1 class="display-2 mb-5 fw-bold text-white">
+                    {{ $heading }}
+                </h1>
+                {{- with $href -}}
+                <a href="{{ $href }}" class="btn btn-primary lift" target="_blank">
+                    {{ $linktext }}  <i class="fe fe-arrow-right ms-2"></i>
+                </a>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+</section>
