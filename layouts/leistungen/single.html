@@ -17,11 +17,7 @@
 </section>
   
 <!-- SHAPE -->
-<div class="position-relative">
-    <div class="shape shape-bottom shape-fluid-x text-light">
-        {{ partial "shapes/curves/curve-1.svg"}}
-    </div>
-</div>
+{{ partial "section/shape" (dict "shape" "curves/curve-1" "color" "text-white") }}
 
 <!-- TEASER -->
 <section class="pt-7 pt-md-9 border-bottom border-gray-300" id="info">
@@ -72,11 +68,7 @@
 </section>
 
 <!-- SHAPE -->
-<div class="position-relative mt-n15">
-    <div class="shape shape-bottom shape-fluid-x text-gray-200">
-        {{ partial "shapes/curves/curve-3.svg"}}
-    </div>
-</div>
+{{ partial "section/shape" (dict "shape" "curves/curve-3" "color" "text-gray-200" "position" "mt-n15") }}
 
 <!-- LEISTUNGEN 2 -->
 <section class="pt-15 pb-10 bg-gray-200">
@@ -89,11 +81,7 @@
 </section>
 
 <!-- SHAPE -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x text-dark">
-      {{ partial "shapes/curves/curve-1.svg"}}
-  </div>
-</div>
+{{ partial "section/shape" (dict "shape" "curves/curve-1" "color" "text-dark") }}
 
 <!-- TEAM -->
 <section class="pt-10 pb-13 bg-dark">
@@ -125,11 +113,9 @@
               <img src="/_index/slider/{{ .picture }}" alt="{{ .name }}" class="card-img-top">
   
               <!-- Shape -->
-              <div class="position-relative">
-                <div class="shape shape-bottom shape-fluid-x text-white">
-                  {{ partial "shapes/curves/curve-3.svg"}}
-                </div>
-              </div>
+              {{ partial "section/shape" (dict "shape" "curves/curve-3" "color" "text-white") }}
+
+              
   
             </a>
   
@@ -193,10 +179,7 @@
 </section>
 
 <!-- SHAPE -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x text-gray-200">
-      {{ partial "shapes/curves/curve-1.svg"}}
-  </div>
-</div>
+{{ partial "section/shape" (dict "shape" "curves/curve-1" "color" "text-gray-200") }}
+
 
 {{ end }}
