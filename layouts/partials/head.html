@@ -17,5 +17,5 @@
 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
-
+{{ partial "head/jsonld.html" . }}
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
