@@ -234,14 +234,6 @@ leistungen:
     type: "schlafmedizin"
 
 
-  - title: "Allergiediagnostik"
-    body: |
-      Allergietests sind wichtige diagnostische Verfahren, um allergische Reaktionen zu identifizieren und zu behandeln. 
-      In der Regel werden verschiedene Methoden wie **Hauttests** oder **Bluttests** eingesetzt, um eine Sensibilisierung gegen bestimmte **Allergene** nachzuweisen.
-
-      In unserer Praxis konzentrieren wir uns vorrangig auf die häufigen Inhalationsallergene, 
-      d.h. Allergene die aus der Luft über die Atemwege in den Körper gelangen (z.B. Pollen, Hausstaubmilben, Schimmelpilze, Tierhaare)
-    type: "allergologie"
   - title: "Pricktest"
     body: |
       Der Pricktest ist ein häufig genutzter Hauttest in der Allergie-Diagnostik. Mit ihm kann man herausfinden, 
