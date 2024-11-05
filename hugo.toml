@@ -66,20 +66,20 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
 #    weight = 5
 
 # Über uns
-#  [[menus.main]]
-#    name = 'Über uns'
-#    pageRef = '/ueber-uns'
-#    weight = 30
+  [[menus.main]]
+    name = 'Über uns'
+    pageRef = '/ueber-uns'
+    weight = 30
 #  [[menus.main]]
 #    name = 'Unsere Ärzte'
 #    pageRef = '/ueber-uns/team'
 #    parent = 'Über uns'
 #    weight = 1
-#  [[menus.main]]
-#    name = 'Unsere Praxis'
-#    pageRef = '/ueber-uns/praxis'
-#    parent = 'Über uns'
-#    weight = 2
+  [[menus.main]]
+    name = 'Unsere Praxis'
+    pageRef = '/ueber-uns/praxis'
+    parent = 'Über uns'
+    weight = 2
 #  [[menus.main]]
 #    name = 'Stellenangebote'
 #    pageRef = '/ueber-uns/karriere'
