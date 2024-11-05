@@ -7,9 +7,9 @@ params:
   type: 'schlafmedizin'
   limit: 2
   team:
-    - name: 'Gerrit Deitmar'
-      picture: Team-Gerrit-Deitmar.jpg
     - name: 'Ulrich Nerenz'
       picture: Team-Ulrich-Nerenz.jpg
+    - name: 'Gerrit Deitmar'
+      picture: Team-Gerrit-Deitmar.jpg
   footer: Roentgen1_by_M_Grambow.webp
 ---

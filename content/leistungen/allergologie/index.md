@@ -7,9 +7,9 @@ params:
   type: 'allergologie'
   limit: 4
   team:
-    - name: 'Gerrit Deitmar'
-      picture: Team-Gerrit-Deitmar.jpg
     - name: 'Ulrich Nerenz'
       picture: Team-Ulrich-Nerenz.jpg
+    - name: 'Gerrit Deitmar'
+      picture: Team-Gerrit-Deitmar.jpg
   footer: Lungenfunktion2_by_M_Grambow.webp
 ---

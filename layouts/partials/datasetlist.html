@@ -24,7 +24,7 @@
                 <h3 class="card-title">{{ $dataset.title }}</h3>
 
                 <!-- Text -->
-                <p class="card-text txt-body-secondary">{{ $dataset.body }}</p>
+                {{ $dataset.body | markdownify }}
 
             </div>
 

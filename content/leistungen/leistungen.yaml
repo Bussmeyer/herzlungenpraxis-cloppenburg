@@ -34,70 +34,286 @@ leistungen:
     body: "Bei der kardiovaskulären Risikoanalyse bewerten wir Ihre persönlichen Risikofaktoren, wie Blutdruck, Cholesterinwerte und Lebensgewohnheiten, um das Risiko für Herz-Kreislauf-Erkrankungen zu ermitteln und präventive Maßnahmen zu empfehlen."
     type: "kardiologie"
   - title: "Leistungsdiagnostik mit Ergospirometrie"
-    body: "Hierbei messen wir Ihre körperliche Leistungsfähigkeit und den Sauerstoffverbrauch während einer Belastung, um Ihre Fitness und mögliche Herz-Kreislauf-Probleme genauer zu beurteilen."
+    body: |
+      Hierbei messen wir Ihre körperliche Leistungsfähigkeit und den Sauerstoffverbrauch während einer Belastung, um Ihre Fitness und mögliche Herz-Kreislauf-Probleme genauer zu beurteilen.
     note: "Bitte tragen Sie zu dieser Untersuchung bequeme Kleidung und verzichten Sie direkt vor der Untersuchung auf schwere Speisen."
     type: "kardiologie"
-  - title: "Lungenfunktionsprüfung: Bodyplethysmographie"
-    body: "Bei der Bodyplethysmographie messen wir das Lungenvolumen und den Atemwiderstand, indem Sie in eine geschlossene Kabine einatmen und ausatmen, um detaillierte Informationen über Ihre Lungenfunktion zu erhalten. Bei der CO-Messung wird der Kohlenmonoxidspiegel in der Atemluft gemessen, um zu überprüfen, ob es Anzeichen für eine erhöhte Belastung durch Kohlenmonoxid gibt, oft im Zusammenhang mit Rauchgewohnheiten oder Umweltbelastungen."
+
+
+  - title: "Blutgasanalyse (BGA)"
+    body: |
+      Eine Blutgasanalyse ist ein medizinischer Test, der verwendet wird, um den **Sauerstoff- und Kohlendioxidgehalt** sowie den **Säure-Basen-Haushalt** im Blut zu messen.
+
+      Dabei wird eine kleine Menge Blut entnommen, normalerweise aus dem Ohrläppchen. Die Blutprobe wird dann in ein spezielles Gerät gegeben. Die ermittelten Werte können wichtige Informationen über die Gesundheit des Patienten liefern und helfen bei der Diagnose von Lungenkrankheiten. 
     type: "pneumologie"
-  - title: "Lungenfunktionsprüfung: CO-Messung"
-    body: "Bei der CO-Messung wird der Kohlenmonoxidspiegel in der Atemluft gemessen, um zu überprüfen, ob es Anzeichen für eine erhöhte Belastung durch Kohlenmonoxid gibt, oft im Zusammenhang mit Rauchgewohnheiten oder Umweltbelastungen."
+  - title: "Belastungstest"
+    body: |
+      Belastungstests in der Pneumologie sind Untersuchungen, die die **Leistungsfähigkeit der Lunge** und des Herzkreislaufsystems bei körperlicher Belastung messen. 
+      Die Tests werden in der Regel durchgeführt, um die Schwere von Atemwegserkrankungen wie **Asthma**, **COPD** oder **interstitiellen Lungenerkrankungen** zu beurteilen und eine **Sauerstoffunterversorgung** festzustellen.
+      
+      Ein standardisierter Test, der in der Pneumologie durchgeführt wird, ist der sogenannte **6-Minuten-Gehtest**. Hierbei muss der Patient innerhalb von sechs Minuten eine möglichst lange Strecke zu Fuß zurücklegen. 
+      Auch hier werden verschiedene Parameter wie z.B. Blutgasanalyse und/oder die Sauerstoffsättigung im Blut während des Gehens gemessen. 
+      Ein weiterer Belastungstest ist die **Fahrradergometrie** oder der **Spiroergometrie-Test**.
+      Bei diesem Test erfolgt die körperliche Belastung für den Patient auf einem Fahrrad oder Laufband, während gleichzeitig Messungen des Atemvolumens, der Atemfrequenz, des 
+      Sauerstoffverbrauchs und der Kohlendioxidproduktion durchgeführt werden. Mit diesen Messungen können verschiedene Parameter berechnet werden, 
+      wie z.B. die **maximale Sauerstoffaufnahme (VO2 max)**, die aerobe Schwelle und die anaerobe Schwelle. 
+      
+      Belastungstests sind wichtige Werkzeuge in der Pneumologie, um die Funktion der Lunge und des Herzkreislaufsystems bei körperlicher Anstrengung zu bewerten und die Behandlung von Lungenerkrankungen zu optimieren.
     type: "pneumologie"
-  - title: "Blutgasanalyse"
-    body: "Hierbei messen wir die Konzentrationen von Sauerstoff, Kohlendioxid und anderen Gasen im Blut, um die Atem- und Stoffwechselzustände sowie die Säure-Basen-Balance zu bewerten."
+  - title: "Bodyplethymographie"
+    body: |
+      Eine Bodyplethysmographie ist ein medizinisches Verfahren, das zur Beurteilung der Lungenfunktion verwendet wird. Bei dieser 
+      Untersuchung wird ein Patient in eine **luftdichte Kammer** gesetzt, die auch als **Plethysmograph** bezeichnet wird. 
+      Der Patient muss dann eine spezielle Maske oder einen Mundstück tragen, um Atembewegungen durchzuführen, 
+      während der Druck innerhalb der Kammer gemessen wird.
+
+      Während des Atemzyklus misst das Gerät verschiedene Parameter, einschließlich der **Atemflussrate**, des **Atemwegswiderstands**, 
+      des Lungenvolumens und des **Residualvolumens**. 
+      Diese Messungen ermöglichen es, verschiedene Aspekte der Lungenfunktion zu bewerten, wie zum Beispiel das Ausmaß der **obstruktiven** oder 
+      **restriktiven Lungenerkrankungen**, die Schweregrad der Atemwegsobstruktion und die Wirksamkeit der Atmungsmuskulatur.
+
+      Eine Bodyplethysmographie wird häufig bei Patienten durchgeführt, die an **chronischen Lungenkrankheiten** wie **Asthma**, 
+      **COPD** oder **Lungenfibrose** leiden, um die Schwere der Erkrankung zu bewerten und die Behandlung zu überwachen. 
     type: "pneumologie"
-  - title: "NO-Messung der Atemluft"
-    body: "Bei dieser Untersuchung wird der Stickstoffmonoxid-Gehalt in Ihrer Ausatemluft gemessen, um Entzündungen in den Atemwegen, insbesondere bei Asthma, zu erkennen und zu überwachen."
+  - title: "CO-Diffusionkapazitätsmessung"
+    body: |
+      Eine CO-Diffusionskapazitätsmessung ist ein Test, der die Fähigkeit der Lungen misst, **Kohlenmonoxid (CO)** aufzunehmen und zu transportieren. 
+      Dabei wird eine geringe Menge an CO in einer Atemluftmischung eingeatmet, und dann wird gemessen, 
+      wie viel CO in das Blut aufgenommen und wie schnell es wieder ausgeschieden wird.
+
+      Die Ergebnisse der Messung geben Aufschluss darüber, wie gut die Lungenbläschen funktionieren und wie effizient der 
+      Gasaustausch zwischen den Lungen und dem Blut stattfindet. 
+      Die Messung kann helfen, verschiedene Lungenkrankheiten wie chronisch **obstruktive Lungenerkrankungen (COPD)/Lungenemphysem** oder **Lungenfibrose** zu diagnostizieren und deren Schweregrad zu bestimmen.
+
+      Insgesamt ist die CO-Diffusionskapazitätsmessung ein wichtiger Test, der dazu beitragen kann, Lungenfunktionsstörungen zu erkennen und zu überwachen. 
     type: "pneumologie"
-  - title: "Spiroergometrie"
-    body: "Bei der Spiroergometrie messen wir während körperlicher Belastung die Atemfunktion, den Sauerstoffverbrauch und die Herz-Kreislauf-Leistung, um Ihre körperliche Fitness und mögliche Erkrankungen der Lunge oder des Herzens zu beurteilen."
-    note: "Bitte tragen Sie zu dieser Untersuchung bequeme Kleidung und verzichten Sie direkt vor der Untersuchung auf schwere Speisen."
+  - title: "FeNO Messung"
+    body: |
+      Eine FeNO Messung ist ein Test, der verwendet wird, um die **Entzündungsreaktion in den Atemwegen** von Patienten mit **Asthma** und 
+      anderen Atemwegserkrankungen zu messen. FeNO steht für **"exhalierter Stickoxidgehalt"** und der Test basiert auf der Messung des 
+      Stickoxidgehalts in der Ausatemluft. 
+
+      Wenn die Atemwege von Patienten mit Asthma entzündet sind, produzieren die Zellen in den Atemwegen erhöhte Mengen an Stickoxid.
+      Diese Stickoxidmoleküle werden dann in die Ausatemluft freigesetzt, wo sie gemessen werden können.
+
+      Die FeNO Messung ist ein schneller und nicht-invasiver Test, der häufig bei der Diagnose von Asthma eingesetzt wird und auch zur 
+      Überwachung der Wirksamkeit der Asthmabehandlung verwendet werden kann. 
+      Ein niedriger FeNO-Wert deutet auf eine geringere Entzündungsreaktion hin, 
+      was auf eine bessere Kontrolle der Asthma-Symptome und eine effektive Behandlung hinweisen kann.
+
+      Es ist jedoch wichtig zu beachten, dass eine FeNO Messung nicht als alleiniges Diagnoseinstrument für Asthma verwendet werden sollte. 
+      Es ist vielmehr eine Ergänzung zu anderen klinischen Bewertungen, wie z.B. der körperlichen Untersuchung, der Anamnese und der Lungenfunktionstests.  
     type: "pneumologie"
-  - title: "Bronchoskopie (Lungenspiegelung)"
-    body: "Hierfür führen wir einen dünnen, flexiblen Schlauch mit einer Kamera über Mund oder Nase in die Atemwege ein, um die Luftröhre und Bronchien zu untersuchen und mögliche Erkrankungen oder Fremdkörper zu diagnostizieren und gegebenenfalls zu behandeln."
-    note: "Dabei werden in der Regel eine Sedierung oder lokale Betäubung angewendet, um den Eingriff für Sie möglichst angenehm und schmerzfrei zu gestalten."
+  - title: "Hyperreagibilitätstest"
+    body: | 
+      Der Hyperreagibilitätstest ist ein diagnostisches Verfahren, das verwendet wird, um die **Reaktivität der Atemwege auf ein spezielles Gasgemisch zu testen.**
+
+      Während der Untersuchung inhaliert der Patient ein feines Gasgemisch. Anschließend wird die Lungenfunktion des Patienten gemessen, 
+      um festzustellen, ob es zu einer **Verengung der Atemwege** gekommen ist. 
+      Eine Verengung der Atemwege deutet auf eine **Überempfindlichkeit der Atemwege** hin, die ein Anzeichen für Asthma sein kann. 
     type: "pneumologie"
-  - title: "Röntgenuntersuchung (digital) des Thorax und der NNH"
-    body: "Hierbei erstellen wir präzise Röntgenbilder von Brustkorb und Nebenhöhlen, um Erkrankungen der Lunge, des Herzens oder der Nebenhöhlen wie Entzündungen oder Verstopfungen zu diagnostizieren."
+  - title: "Labordiagnostik"
+    body: |
+      Die Möglichkeit, Blutuntersuchungen durchzuführen, ist ein wichtiger Bestandteil. Blutuntersuchungen können wertvolle Informationen liefern, 
+      um Hinweisen auf akute **Herzmuskelschädigung**, **Herzschwäche** oder **Lungenembolie** nachzugehen.
+
+      Das eigene Labor ermöglicht zudem Infektionsuntersuchungen auf wichtige Erreger wie **Bakterien** und **Viren** (z.B. RS-Virus, Influenza, etc.), 
+      was besonders in Zeiten von Pandemien von großer Bedeutung sein kann. 
+      Auch die Möglichkeit, sämtliche weitere Blutuntersuchungen bei externen Laboren durchführen zu lassen, ist von Vorteil, 
+      um eine umfassende Diagnostik zu gewährleisten. 
+      Durch die schnelle und effektive Diagnostik können Patienten schneller und gezielter behandelt werden, 
+      was zu einer **besseren Patientenversorgung** führen kann. 
     type: "pneumologie"
-  - title: "Tuberkuloseberatung (Gesundheitsamt Vechta/Diepholz)"
-    body: "Bei der Tuberkuloseberatung informieren und beraten wir Sie über die Vorbeugung, Erkennung und Behandlung, klären über Ansteckungswege auf und begleiten Sie bei notwendigen Untersuchungen oder Therapien."
+  - title: "P01 Atemmuskelfunktionsmessung"
+    body: |
+      Die p01 Atemmuskelfunktionsmessung ist ein Test, der die **Kraft und Funktion der Atemmuskeln** misst. 
+      Die Messung erfolgt durch eine Atemwegsmessung, bei der der Patient durch ein Mundstück ein- und ausatmet. 
+      Während der Messung wird der Druck im Mund und in der Lunge aufgezeichnet und analysiert, um die Atemmuskelfunktion zu bewerten.
+
+      Die p01 Messung ist besonders nützlich bei der Diagnose von Atemwegserkrankungen wie COPD, Asthma und neuromuskulären Erkrankungen, 
+      die die Atemmuskulatur betreffen können. 
+      Es kann auch verwendet werden, um den Erfolg einer Behandlung zu überwachen oder um festzustellen, ob eine **mechanische Beatmung** notwendig ist.
+
+      Die p01 Messung ist eine sichere und nicht-invasive Methode zur **Beurteilung der Atemmuskelfunktion**. 
     type: "pneumologie"
-  - title: "Prick-, Epicutan- und Intracutantestung"
-    body: "Hierbei führen wir verschiedene Hauttests durch, um Allergien zu diagnostizieren, indem kleine Mengen potenzieller Allergene entweder auf die Haut aufgetragen oder unter die Haut eingebracht werden, um eine Reaktion zu beobachten."
-    type: "allergologie"
-  - title: "Reib- u. Scratchtest"
-    body: "Bei diesem Test werden kleine Mengen von Allergenen auf die Haut aufgetragen oder in die oberflächliche Haut geritzt, um zu testen, ob eine allergische Reaktion auftritt."
-    type: "allergologie"
-  - title: "Nasentest (nasale Provokation mit Allergenen)"
-    body: "Hierbei wird eine kleine Menge von Allergenen in die Nase eingebracht, um zu überprüfen, ob sie allergische Reaktionen in der Nasenschleimhaut auslösen."
-    type: "allergologie"
-  - title: "Rhinomanometrie"
-    body: "Bei der Rhinomanometrie messen wir den Luftwiderstand in den Nasengängen, um die Atemwege auf Verengungen oder Blockaden zu untersuchen und die Nasenatmung zu bewerten."
-    type: "allergologie"
-  - title: "Bronchialer Provokationstest"
-    body: "Bei dieser Untersuchung wird ein Reizstoff inhaliert, um zu prüfen, ob und wie stark Ihre Atemwege auf diesen Reiz reagieren, was hilft, Asthma oder andere Atemwegserkrankungen zu diagnostizieren."
-    type: "allergologie"
-  - title: "RAST Test (Radio-Allergo-Sorbent-Test)"
-    body: "Hierbei wird eine Blutprobe analysiert, um die Konzentration spezifischer Antikörper gegen bestimmte Allergene zu messen und so Allergien nachzuweisen."
-    type: "allergologie"
-  - title: "Spezifische Immuntherapie (Hyposensibilisierung)"
-    body: "In dieser bis zu mehreren Jahren dauernden Behandlung werden schrittweise steigende Dosen von Allergenen verabreicht, um das Immunsystem an die Allergene zu gewöhnen und langfristig die allergischen Reaktionen zu reduzieren oder zu verhindern."
-    note: "Bitte beachten Sie, dass nach jeder Dosis eine halbstündige Überwachungszeit in unserer Praxis notwendig ist, um bei allergischen Reaktionen schnell reagieren zu können."
-    type: "allergologie"
-  - title: "Allergie/Reiseberatung"
-    body: "Bei der Allergie- und Reiseberatung bieten wir Informationen und Empfehlungen an, um Allergien während Reisen zu vermeiden und optimal zu managen, einschließlich der Auswahl von Medikamenten und Strategien zur Vermeidung von Allergenen."
-    type: "allergologie"
-  - title: "Schlaf-Apnoe-Untersuchung"
-    body: "Bei dieser Messung über Nacht zu Hause messen wir mit einem tragbaren Gerät Ihre Atmung, Sauerstoffsättigung und Schlafmuster, um festzustellen, ob Sie an Schlafapnoe leiden."
-    note: "Bitte vergessen Sie nicht, uns das Gerät am nächsten Morgen bis 8 Uhr zurück in die Praxis zu bringen."
+  - title: "Röntgen Thorax"
+    body: |
+      Ein Röntgen Thorax ist eine medizinische Untersuchung, die zur Beurteilung der Lungen und des Brustkorbs verwendet wird. 
+      Bei einem Röntgen Thorax wird eine Röntgenaufnahme des Brustkorbs gemacht, 
+      um Bilder der Lunge, des Herzens, der Rippen und anderer Strukturen in der Brust zu erzeugen.
+
+      Das Verfahren ist schnell, einfach und schmerzlos und erfordert in der Regel keine spezielle Vorbereitung. 
+      Während der Untersuchung wird der Patient gebeten, still zu stehen und tief einzuatmen. 
+      Das resultierende Bild zeigt ein **zweidimensionales Bild der inneren Strukturen**. 
+
+      Ein Röntgen Thorax kann zur Diagnose von Erkrankungen wie Lungenentzündung, Lungenfibrose, Lungentumoren, Lungenembolie, 
+      Kollaps eines Lungenflügels und anderen Brustverletzungen oder Knochenerkrankungen verwendet werden. 
+      Es kann auch zur Überwachung des Fortschreitens einer Lungenerkrankung oder zur Beurteilung der Ergebnisse einer Behandlung verwendet werden. 
+      Es ist jedoch wichtig zu beachten, dass ein Röntgen Thorax nicht alle Lungenerkrankungen erkennen kann und dass in einigen Fällen weitere Untersuchungen erforderlich sein können, wie z.B. eine Computertomographie (CT). 
+      
+      Moderne Röntgengeräte sind jedoch in der Regel so konzipiert, dass sie eine möglichst **geringe Strahlendosis** abgeben, während gleichzeitig eine gute Bildqualität gewährleistet wird. 
+      Eine typische Röntgen Thorax Aufnahme mit einem modernen Gerät liefert eine Strahlendosis von etwa 0,1 bis 0,2 Millisievert (mSv). Diese Dosis ist relativ gering und entspricht in etwa der Strahlendosis, der ein Mensch während eines Fluges von Europa nach Nordamerika ausgesetzt ist. 
+      Dennoch sollten Röntgenaufnahmen nur dann durchgeführt werden, wenn es medizinisch notwendig ist, und nur von qualifiziertem medizinischen Personal unter Berücksichtigung des individuellen Nutzen-Risiko-Verhältnisses des Patienten. 
+    type: "pneumologie"
+  - title: "Bronchoskopie"
+    body: |
+      Eine Bronchoskopie ist ein medizinisches Verfahren, bei dem ein **flexibles Instrument** namens Bronchoskop in die Lunge eingeführt wird. 
+      Das Bronchoskop ist ein dünner Schlauch mit einer kleinen Kamera am Ende, die Bilder der Atemwege in Echtzeit an einen Monitor überträgt. 
+      Das Verfahren wird in einem **kooperierendem Krankenhaus** durchgeführt. Hierbei arbeiten wir eng mit den umgeben Fachkliniken zusammen. 
+    type: "pneumologie"
+  - title: "Sauerstofftherapie"
+    body: |
+      Eine Sauerstofftherapie kann bei Patienten mit einer unzureichenden Sauerstoffversorgung des Körpers, 
+      wie z.B. bei chronisch obstruktiver Lungenerkrankung (COPD), Lungenfibrose oder anderen Lungenerkrankungen, 
+      erforderlich sein. Die Sauerstofftherapie soll sicherstellen, dass **ausreichend Sauerstoff** im Blut vorhanden ist, 
+      um den Körper mit ausreichend Sauerstoff zu versorgen und das **Risiko von Komplikationen** zu verringern. 
+      
+      Es gibt verschiedene Arten von Sauerstoffsystemen, die in der Praxis eingesetzt werden können. 
+      Dazu gehören z.B. mobile **Sauerstoffkonzentratoren**, **stationäre Sauerstoffgeräte** und **Sauerstoffflaschen**. 
+      Jedes System hat seine Vor- und Nachteile und sollte **individuell auf den Bedarf des Patienten abgestimmt werden**. 
+
+      Es ist wichtig, dass die **Kostenübernahme** für die Sauerstofftherapie vorab von der Krankenkasse bewilligt wird. Die genauen Bestimmungen zur Kostenübernahme können je nach Versicherung und individueller Situation des Patienten variieren. 
+      In der Regel sind jedoch die Kosten für die Sauerstofftherapie bei Patienten mit schweren Lungenerkrankungen wie COPD oder Lungenfibrose durch die Krankenkassen abgedeckt. 
+      
+      Es ist auch wichtig zu beachten, dass die verschiedenen Sauerstoffsysteme unterschiedliche Kosten haben können und dass die Krankenkassen möglicherweise nicht alle Systeme in vollem Umfang decken. 
+      Daher ist es ratsam, sich im Vorfeld über die Kosten und Deckung der verschiedenen Optionen zu informieren. 
+    type: "pneumologie"
+  - title: "Sonographie des Thorax"
+    body: |
+      Eine Thoraxsonographie ist ein medizinisches Verfahren, bei dem **hochfrequente Schallwellen** verwendet werden, 
+      um Bilder von den Organen, Geweben und Strukturen innerhalb des Brustkorbs zu erzeugen. 
+      Dabei wird eine **spezielle Ultraschallsonde** auf die Brustwand aufgelegt, welches Schallwellen aussendet und die reflektierten Signale aufnimmt.
+
+      Die Thoraxsonographie wird in der Regel eingesetzt, um Veränderungen in der Lunge, wie z.B. **Flüssigkeitsansammlungen**, zu erkennen. Die Thoraxsonographie kann auch dazu beitragen, die Ursache von Atembeschwerden oder Schmerzen im Brustbereich zu ermitteln. 
+      
+      Die Thoraxsonographie ist eine sichere und nicht-invasive Methode, die im Allgemeinen gut verträglich ist. Sie erfordert **keine Strahlenbelastung** und ist daher auch bei Schwangeren eine Option. 
+      Allerdings hat die Thoraxsonographie auch ihre Grenzen und kann nicht alle Lungenkrankheiten diagnostizieren. In einigen Fällen kann eine zusätzliche Untersuchung erforderlich sein, wie z.B. eine Röntgenaufnahme oder eine Computertomographie (CT). 
+    type: "pneumologie"
+  - title: "EKG"
+    body: |
+      Ein EKG ist eine Abkürzung für **Elektrokardiogramm**, ein diagnostisches Verfahren, das verwendet wird, 
+      um die elektrischen Aktivitäten des Herzens aufzuzeichnen.  
+      Während eines EKGs werden Elektroden auf der Haut des Patienten angebracht, normalerweise an den Armen, Beinen und der Brustwand. 
+      
+      Die Elektroden messen die elektrischen Signale, die durch das Herz fließen, und geben diese Informationen an ein EKG-Gerät weiter,
+      das die Daten in eine grafische Darstellung umwandelt. 
+      
+      Diese Darstellung zeigt die verschiedenen **Phasen der Herzaktivität** an, einschließlich der Kontraktionen der Vorhöfe und der Herzkammern. 
+      Ein EKG kann zur Diagnose von **Herzerkrankungen** wie **Arrhythmien**, **Herzinfarkten**, **Entzündungen des Herzens** und **angeborenen Herzfehlern** verwendet werden. 
+      Es ist eine sichere und schmerzlose Methode, die oft in Kombination mit anderen Diagnoseverfahren 
+      wie Blutuntersuchungen und bildgebenden Verfahren eingesetzt wird, um eine umfassende Bewertung des Herz-Kreislauf-Systems zu ermöglichen. 
+    type: "pneumologie"
+
+
+  - title: "Polygraphie"
+    body: |
+      Eine Polygraphie ist eine ambulante Untersuchungsmethode zur Erfassung von verschiedenen **Körperparametern** während des Schlafs. 
+      Hierbei werden Messgeräte an verschiedenen Körperstellen angebracht, um unter anderem die **Atmung**, den **Puls**, die **Sauerstoffsättigung im Blut**, 
+      die **Bewegungen** des Brustkorbs und des Bauches sowie die Körperlage zu messen. 
+      
+      Die Polygraphie wird eingesetzt, um Schlafstörungen oder **schlafbezogene Atmungsstörungen** wie die Schlafapnoe-Syndrome zu diagnostizieren. 
+      Die Untersuchung erfolgt im **häuslichen Umfeld**, während der Patient nachts schläft. 
+      Die aufgezeichneten Daten werden im Anschluss ausgewertet und von einem Arzt interpretiert. 
+      Anhand der Ergebnisse können dann entsprechende weitere Maßnahmen (z.B. Vorstellung im **Schlaflabor**) eingeleitet werden.
     type: "schlafmedizin"
-  - title: "Kontrolluntersuchung für Patienten mit Schlafapnoe unter apparativer Atemhilfe (nCPAP-Gerät)"
-    body: "Hierbei überwachen wir die Wirksamkeit und den Sitz des Geräts, überprüfen die Atemmuster und passen die Einstellungen an, um eine optimale Therapie und Verbesserung der Schlafqualität sicherzustellen."
+  - title: "Polysomnographie"
+    body: |
+      Die Polysomnographie (PSG) ist eine Untersuchung, die während des Schlafs durchgeführt wird, 
+      um verschiedene **physiologische Parameter** zu messen und Störungen des Schlafs und der Atmung zu diagnostizieren. 
+      Hierzu werden in der Regel **Elektroden** auf dem Kopf und anderen Körperstellen sowie **Sensoren** zur Messung der Atmung 
+      und anderer Körperfunktionen angebracht.
+
+      Während der Untersuchung werden verschiedene Parameter aufgezeichnet, 
+      wie z.B. **Hirnaktivität, Augenbewegungen, Muskelaktivität, Herzfrequenz, Sauerstoffsättigung im Blut, Atemfrequenz und Schnarchgeräusche**. 
+      Diese Daten können helfen, Schlafstörungen wie Schlafapnoe, Restless-Legs-Syndrom oder Narkolepsie zu diagnostizieren.
+
+      Die Polysomnographie wird oft in unserem ambulanten Schlaflabor unseres Kooperationspartners St. Josef- Hospital durchgeführt. 
+      Seit 2022 unterhalten wir im gleichen Gebüde der Praxis (1. Stock Antoniusplatz) ein weiteres Schlaflabor, 
+      wo der Patient über Nacht unter Beobachtung bleibt. Die Ergebnisse werden von uns als Schlafmediziner ausgewertet, 
+      um eine genaue Diagnose zu stellen und eine geeignete Behandlung zu empfehlen.
     type: "schlafmedizin"
-  - title: "Schlaflaboruntersuchung (im St. Josef Hospital Cloppenburg)"
-    body: "Bei der Polysomnographie wird während des Schlafs eine umfassende Überwachung verschiedener physiologischer Parameter wie Gehirnaktivität, Augenbewegungen, Herzfrequenz und Atemmuster durchgeführt, um Schlafstörungen zu diagnostizieren und zu bewerten."
-    type: "schlafmedizin"
-  - title: "Einstellung nCPAP"
-    body: "Bei der Einstellung von nCPAP (nasal Continuous Positive Airway Pressure) justieren wir die Druckstärke des kontinuierlichen positiven Atemwegsdrucks, um eine effektive Behandlung von Schlafapnoe sicherzustellen und die Atemwege während des Schlafs offen zu halten."
-    type: "schlafmedizin"
+
+
+  - title: "Allergiediagnostik"
+    body: |
+      Allergietests sind wichtige diagnostische Verfahren, um allergische Reaktionen zu identifizieren und zu behandeln. 
+      In der Regel werden verschiedene Methoden wie **Hauttests** oder **Bluttests** eingesetzt, um eine Sensibilisierung gegen bestimmte **Allergene** nachzuweisen.
+
+      In unserer Praxis konzentrieren wir uns vorrangig auf die häufigen Inhalationsallergene, 
+      d.h. Allergene die aus der Luft über die Atemwege in den Körper gelangen (z.B. Pollen, Hausstaubmilben, Schimmelpilze, Tierhaare)
+    type: "allergologie"
+  - title: "Pricktest"
+    body: |
+      Der Pricktest ist ein häufig genutzter Hauttest in der Allergie-Diagnostik. Mit ihm kann man herausfinden, 
+      ob jemand auf bestimmte Substanzen allergisch reagiert (zum Beispiel Pollen). Da der Pricktest direkt an der **Haut** der betroffenen Person durchgeführt wird, gehört er zu den in-vivo-Tests (= „am lebenden Objekt“). Dagegen spricht man beim Labortest mit einer Blutprobe von einem in-vitro-Test (= “im Glas“).
+      
+      Wir setzen den Pricktest ein, wenn wir eine Allergie gegen folgende Stoffe vermuten:
+      -	Pollen (z.B. von Birke, Erle, Haselnuss und Gräsern)
+      -	Hausstaubmilben
+      -	Schimmelpilze
+      -	Tierhaare
+      -	Nahrungsmittel (Milch-, Eier- und Fischeiweiß ebenso wie Hülsenfrüchte und Obst)
+      -	Insektengifte
+      
+      Mit dem Pricktest lassen sich sogenannte **Typ-I-Allergien** feststellen. Bei diesem Allergietyp reagieren Betroffene innerhalb von Sekunden bis Minuten auf den Allergieauslöser (Allergen). In seltenen Fällen sind auch verspätete Reaktionen möglich. 
+      
+      **Was macht man bei einem Pricktest?**
+      Für den Pricktest tropft die Arzthelferin dem Patienten standardisierte, industriell hergestellte Allergenlösungen 
+      auf die Innenseite des Unterarms. Mithilfe einer speziellen Lanzette oder Prick-Nadel 
+      sticht er dann durch den Tropfen oberflächlich in die Haut (nur leicht - es sollte nicht bluten).
+
+      Steht keine fertige Allergenlösung zur Verfügung, kann der Arzt einen **Prick-zu-Prick-Test** durchführen: 
+      Zuerst sticht er mit der Lanzette in das potenzielle Allergen, zum Beispiel eine Frucht, und anschließend in die Haut. 
+      Da keine vorgefertigte Lösung verwendet wird, ist der Prick-zu-Prick-Test kein standardisiertes Verfahren.
+
+      Bei jedem Pricktest wird zusätzlich eine wässrige Lösung und eine Lösung mit Histamin aufgetragen. 
+      Die erste darf keine, die zweite muss eine Reaktion auslösen.
+
+      Nach etwa 15 bis 20 Minuten untersucht der Arzt die getesteten Hautstellen. 
+      Reagiert der Patient auf eine Substanz allergisch, 
+      wird die Haut an der entsprechenden Stelle rot, es juckt und es bildet sich eine **Quaddel**.
+
+      Betroffene werden unmittelbar nach dem Test weiterhin überwacht (mindestens 30 Minuten nach Einbringen des Allergens). 
+      So kann das medizinische Personal umgehend eingreifen, sollte die betreffende Person schwer auf das Allergen reagieren.
+    type: "allergologie"
+  - title: "Allergielabor"
+    body: |
+      Eine Allergie EAST-Untersuchung bezieht sich auf einen speziellen Bluttest zur Diagnose von Allergien. 
+      EAST steht für "Enzyme-Allergo-Sorbent-Test". Bei diesem Test werden **spezifische Antikörper im Blut gegen Allergene** gemessen.
+
+      Zunächst wird dem Patienten eine Blutprobe entnommen. Diese Probe wird dann im Labor mit verschiedenen Allergenen in Kontakt gebracht. 
+      Wenn der Patient gegen eines oder mehrere dieser Allergene sensibilisiert ist, wird das Immunsystem **Antikörper** gegen diese Allergene produzieren. 
+      Diese Antikörper binden sich dann an die Allergene und bilden einen sogenannten **"Immunkomplex"**. 
+      Die Menge an Immunkomplexen im Blut wird mit einem speziellen Enzyme-Allergo-Sorbent-Test (EAST) gemessen.
+
+      Ein erhöhter Wert im EAST-Test deutet darauf hin, dass der Patient sensibilisiert ist und eine 
+      allergische Reaktion auf das entsprechende Allergen haben könnte. Die EAST-Untersuchung kann zur 
+      Diagnose von verschiedenen Allergien eingesetzt werden, wie zum Beispiel von Pollenallergien, Tierhaarallergien, Hausstaubmilbenallergien und mehr.
+
+      Die **Interpretation** der Ergebnisse erfordert jedoch eine **sorgfältige Bewertung** durch einen erfahrenen Arzt, 
+      da ein erhöhter Spiegel von Antikörpern nicht immer auf eine allergische Reaktion hinweist und weitere Untersuchungen erforderlich sein können, um eine genaue Diagnose zu stellen.
+    type: "allergologie"
+  - title: "Nasale Provokation"
+    body: |
+      Die nasale Provokation ist ein diagnostisches Verfahren zur Abklärung von allergischen Erkrankungen der 
+      Nase wie beispielsweise **allergischer Rhinitis (Heuschnupfen)**. Dabei werden dem Patienten in steigender Dosierung 
+      Allergene in flüssiger Form in die Nase gesprüht oder eingetropft. Anschließend wird die Reaktion der Nasenschleimhaut 
+      auf das Allergen beobachtet und gemessen, beispielsweise durch die Bestimmung des Nasenwiderstands oder die Bewertung von 
+      Symptomen wie Niesen, Jucken oder Nasenlaufen. 
+
+      Durch die nasale Provokation kann festgestellt werden, ob eine allergische Reaktion auf 
+      bestimmte Allergene vorliegt und in welchem Ausmaß diese ausfällt. Dies kann für die Diagnose und die **gezielte 
+      Therapieplanung** von allergischen Erkrankungen der Nase wichtig sein.
+    type: "allergologie"
+  - title: "Spezifische Immuntherapie"
+    body: |
+      Bei der spezifischen Immuntherapie **(SIT)** oder Hyposensibilisierung wird der Körper des Patienten schrittweise an 
+      das allergieauslösende Allergen gewöhnt, um die Immunantwort zu reduzieren und die Symptome zu lindern. 
+      Durch die Bestimmung allergenspezifischer Marker in einem Allergielabor kann eine individuelle 
+      Therapie auf die Bedürfnisse des/r Patienten/-in abgestimmt werden. 
+
+      Die SIT kann in **sublingualer Form (SLIT)** oder **subkutaner Form (SCIT)** durchgeführt werden. 
+      Bei der sublingualen Immuntherapie (SLIT) werden allergenspezifische Tropfen oder Tabletten unter die Zunge des Patienten gegeben, 
+      wo sie einige Zeit verbleiben müssen, bevor sie geschluckt werden.  Bei der subkutanen Immuntherapie (SCIT) 
+      werden kleine Mengen des Allergens in regelmäßigen Abständen unter die Haut (meistens Rückseite des Oberarms) des Patienten injiziert.
+    type: "allergologie"
