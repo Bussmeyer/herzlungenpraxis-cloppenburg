@@ -12,7 +12,6 @@ params:
 - Schlafmedizin
 - Kooperationspartner im Schlaflabor des St.- Josefs-Hospitals Cloppenburg
 
-
 ### Werdegang
 - 1969 geboren in Göttingen
 - 1989 – 1995 Studium der Humanmedizin an der Georg-August-Universität Göttingen

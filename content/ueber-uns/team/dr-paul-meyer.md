@@ -16,8 +16,6 @@ params:
 - Rettungsmedizin, Notarzt, leitender Notarzt
 - Kardiologischer Kooperationspartner für Herzkatheteruntersuchungen/-interventionen im Herzkatheterlabor des Universitätsklinikums Oldenburg, des St.-Josefs-Hospitals in Cloppenburg und des St.-Marien-Hospitals in Vechta
 
-
-
 ### Werdegang
 - 1960 geboren in Cloppenburg
 - Studium der Humanmedizin an der Christian-Albrechts-Universität Kiel, der University of Wisconsin, USA und der Universität Wien

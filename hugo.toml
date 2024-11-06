@@ -70,11 +70,11 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
     name = 'Über uns'
     pageRef = '/ueber-uns'
     weight = 30
-#  [[menus.main]]
-#    name = 'Unsere Ärzte'
-#    pageRef = '/ueber-uns/team'
-#    parent = 'Über uns'
-#    weight = 1
+  [[menus.main]]
+    name = 'Unsere Ärzte'
+    pageRef = '/ueber-uns/team'
+    parent = 'Über uns'
+    weight = 1
   [[menus.main]]
     name = 'Unsere Praxis'
     pageRef = '/ueber-uns/praxis'
