@@ -1,0 +1,4 @@
+{{- $title := (.Get 0) -}}
+{{- $summary := (.Get 1) -}}
+
+{{ partial "section/pagetitle" (dict "context" . "title" $title "summary" $summary ) }}
