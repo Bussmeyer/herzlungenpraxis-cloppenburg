@@ -36,34 +36,34 @@ claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmediz
 
 [menus]
 # Leistungen
-#  [[menus.main]]
-#    name = 'Leistungen'
-#    pageRef = '/leistungen'
-#    weight = 20
-#  [[menus.main]]
-#    name = 'Kardiologie'
-#    post = 'Herzgesundheit erhalten'
-#    pageRef = '/leistungen/kardiologie/'
-#    parent = 'Leistungen'
-#    weight = 2
-#  [[menus.main]]
-#    name = 'Pneumologie'
-#    post = 'Gut durchatmen'
-#    pageRef = '/leistungen/pneumologie'
-#    parent = 'Leistungen'
-#    weight = 3
-#  [[menus.main]]
-#    name = 'Allergologie'
-#    post = 'Testen und Behandeln'
-#    pageRef = '/leistungen/allergologie'
-#    parent = 'Leistungen'
-#    weight = 4
-#  [[menus.main]]
-#    name = 'Schlafmedizin'
-#    post = 'Erholsam schlafen'
-#    pageRef = '/leistungen/schlafmedizin'
-#    parent = 'Leistungen'
-#    weight = 5
+  [[menus.main]]
+    name = 'Leistungen'
+    pageRef = '/leistungen'
+    weight = 20
+  [[menus.main]]
+    name = 'Kardiologie'
+    post = 'Herzgesundheit erhalten'
+    pageRef = '/leistungen/kardiologie/'
+    parent = 'Leistungen'
+    weight = 2
+  [[menus.main]]
+    name = 'Pneumologie'
+    post = 'Gut durchatmen'
+    pageRef = '/leistungen/pneumologie'
+    parent = 'Leistungen'
+    weight = 3
+  [[menus.main]]
+    name = 'Allergologie'
+    post = 'Testen und Behandeln'
+    pageRef = '/leistungen/allergologie'
+    parent = 'Leistungen'
+    weight = 4
+  [[menus.main]]
+    name = 'Schlafmedizin'
+    post = 'Erholsam schlafen'
+    pageRef = '/leistungen/schlafmedizin'
+    parent = 'Leistungen'
+    weight = 5
 
 # Über uns
   [[menus.main]]

@@ -11,7 +11,7 @@ leistungen:
     body: "Mit Hilfe von modernster Technik überprüfen wir die Funktion dieser implantierten Geräte, um sicherzustellen, dass sie Ihr Herz optimal unterstützen und überwachen."
     type: "kardiologie"
   - title: "Farbdopplerechokardiographie"
-    body: "Hierbei wird mittels Ultraschalles das Herz sowie die Blutflussgeschwindigkeit in den Herzgefäßen und -klappen farblich dargestellt, um die Herzfunktion und mögliche Störungen zu beurteilen."
+    body: "Hierbei wird mittels Ultraschalles die Herzmuskelfunktion und Funktion der Herzklappen auf mögliche Störungen untersucht."
     type: "kardiologie"
   - title: "Stressechokardiographie mit ergometrischer Belastung"
     body: "Hierbei untersuchen wir Ihr Herz mittels Ultraschalles während körperlicher Anstrengung, um die Herzfunktion unter Stressbedingungen zu beurteilen und mögliche Durchblutungsstörungen zu erkennen." 
@@ -33,12 +33,6 @@ leistungen:
   - title: "Kardiovaskuläre Risikoanalyse"
     body: "Bei der kardiovaskulären Risikoanalyse bewerten wir Ihre persönlichen Risikofaktoren, wie Blutdruck, Cholesterinwerte und Lebensgewohnheiten, um das Risiko für Herz-Kreislauf-Erkrankungen zu ermitteln und präventive Maßnahmen zu empfehlen."
     type: "kardiologie"
-  - title: "Leistungsdiagnostik mit Ergospirometrie"
-    body: |
-      Hierbei messen wir Ihre körperliche Leistungsfähigkeit und den Sauerstoffverbrauch während einer Belastung, um Ihre Fitness und mögliche Herz-Kreislauf-Probleme genauer zu beurteilen.
-    note: "Bitte tragen Sie zu dieser Untersuchung bequeme Kleidung und verzichten Sie direkt vor der Untersuchung auf schwere Speisen."
-    type: "kardiologie"
-
 
   - title: "Blutgasanalyse (BGA)"
     body: |
