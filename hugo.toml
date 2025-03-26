@@ -6,8 +6,6 @@ disableHugoGeneratorInject = true
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
-
-
 [minify]
   [minify.tdewolff]
     [minify.tdewolff.html]
