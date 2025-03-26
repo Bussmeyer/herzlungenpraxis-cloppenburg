@@ -62,7 +62,7 @@ footer: bg-gray-200
 - partials/shapes komplett nach layouts/partials/shapes kopieren
 
 # Current Domain
-beta.herzlungenpraxis-cloppenburg.de
+www.herzlungenpraxis-cloppenburg.de
 
 DNS kasserver.com
 
