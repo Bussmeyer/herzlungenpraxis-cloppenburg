@@ -5,6 +5,7 @@ enableEmoji = true
 disableHugoGeneratorInject = true
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
+theme = "landkit"
 
 [minify]
   [minify.tdewolff]
