@@ -43,6 +43,7 @@ jobs:
           git config --global url."https://${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_TERMINAL_PROMPT: 0
 
       - name: Set GOPRIVATE
         run: echo "GOPRIVATE=github.com/Bussmeyer/*" >> $GITHUB_ENV
