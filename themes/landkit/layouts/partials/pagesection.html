@@ -1,9 +1,0 @@
-{{- $classes := .classes }}
-{{- $bgimage := .bgimage }}
-{{- $content := .context.Inner }}
-
-<section class="{{ $classes }}" {{ if $bgimage }}style="background-image: url({{ $bgimage }});"{{ end }}>
-    <div class="container">
-        {{ $content }}
-    </div>
-</section>

@@ -5,7 +5,11 @@ enableEmoji = true
 disableHugoGeneratorInject = true
 disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
-theme = "landkit"
+
+#theme = "landkit"
+[module]
+  [[module.imports]]
+    path = "github.com/Bussmeyer/landkit-hugo-theme"
 
 [minify]
   [minify.tdewolff]
