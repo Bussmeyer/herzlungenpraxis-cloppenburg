@@ -41,7 +41,7 @@ hugo server --bind 192.168.55.181 --baseURL http://192.168.55.181 --port 8080
 │       ├── kontakt/       # Contact
 │       └── faq/           # Frequently asked questions
 ├── themes/landkit/        # Custom Hugo theme
-├── static/                # Static files (favicon, verification)
+├── static/                # Static files (verification)
 ├── hugo.toml             # Hugo configuration
 └── public/               # Generated site (not committed)
 ```

@@ -31,7 +31,7 @@ cwebp -q 80 input.jpg -o output.webp
   - `ueber-uns/` - About section (team, praxis, karriere)
   - `informationen/` - Patient information (kontakt, faq)
 - `themes/landkit/` - Custom theme with layouts, partials, and assets
-- `static/` - Static files (favicon, verification files)
+- `static/` - Static files (verification files)
 - `public/` - Generated site output (not committed)
 
 ### Theme Architecture
