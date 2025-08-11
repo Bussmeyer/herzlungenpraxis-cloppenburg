@@ -18,6 +18,7 @@ enableRobotsTXT = true
 [params]
 showMainMenu = true
 claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
+img404 = 'img/LuFu1_by_M_Grambow.webp'
 [params.contact]
   phone = '044716121'
   phone_human = '(04471) 6121'
