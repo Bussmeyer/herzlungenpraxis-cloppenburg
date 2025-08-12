@@ -1,0 +1,186 @@
+{{ define "main" }}
+{{/*  TODO müssen wir mal checken, ob das hier im Theme bleiben kann oder raus muss  */}}
+
+<!-- HERO -->
+<section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url({{ .Params.hero }});">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+  
+          <!-- Heading -->
+          <h1 class="display-2 fw-bold text-white">
+            {{ .Title }}
+          </h1>
+  
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+  
+<!-- SHAPE -->
+{{ partial "section/shape" (dict "shape" "curves/curve-1" "color" "text-white") }}
+
+<!-- TEASER -->
+<section class="pt-7 pt-md-9 border-bottom border-gray-300" id="info">
+    <div class="container">
+
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+
+          <!-- Button -->
+          <a href="#info" class="btn btn-white btn-rounded-circle shadow mt-n11 mt-md-n13" data-scroll>
+            <i class="fe fe-arrow-down"></i>
+          </a>
+  
+        </div>
+        <div class="col-12 col-md-10 col-lg-8 mb-8 text-center">
+
+          <!-- Text -->
+          <p class="lead">
+            {{ .Summary }}
+          </p>
+
+        </div>
+      </div>
+
+    </div> <!-- / .container -->
+</section>
+
+<!-- LEISTUNGEN 1 -->
+<section class="pt-7 pt-md-9 bg-gradient-light-white">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 text-center">
+
+        <!-- Heading -->
+        <h2 class="mb-7 mb-md-9">
+          Diese Untersuchungen führen wir durch
+        </h2>
+
+      </div>
+    </div>
+
+    <!-- Leistungen -->
+    {{ partial "datasetlist" (dict "context" . "type" .Params.type "limit" .Params.limit ) }}
+
+
+  </div> <!-- / .container -->
+</section>
+
+<!-- SHAPE -->
+{{ partial "section/shape" (dict "shape" "curves/curve-3" "color" "text-gray-200" "position" "mt-n15") }}
+
+<!-- LEISTUNGEN 2 -->
+<section class="pt-15 pb-10 bg-gray-200">
+    <div class="container">
+        
+      <!-- Leistungen -->
+      {{ partial "datasetlist" (dict "context" . "type" .Params.type "offset" .Params.limit ) }}
+
+    </div>
+</section>
+
+<!-- SHAPE -->
+{{ partial "section/shape" (dict "shape" "curves/curve-1" "color" "text-dark") }}
+
+<!-- TEAM -->
+<section class="pt-10 pb-13 bg-dark">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 text-center">
+
+        <!-- Heading -->
+        <h2 class="mb-7 mb-md-9 text-white text-opacity-75">
+          Spezialisten unserer Praxis in der {{ .Title }}
+        </h2>
+
+      </div>
+    </div>
+    
+    <div class="row">
+      
+      {{ range .Params.team }}
+        <div class="col-12 col-md-6 col-lg-4 d-flex mb-8">
+
+          <!-- Card -->
+          <div class="card shadow-light-lg lift lift-lg">
+  
+            <!-- Image -->
+            <a class="card-img-top" href="/ueber-uns/team/">
+  
+              <!-- Image -->
+              <img src="/_index/doctors/{{ .picture }}" alt="{{ .name }}" class="card-img-top">
+  
+              <!-- Shape -->
+              {{ partial "section/shape" (dict "shape" "curves/curve-3" "color" "text-white") }}
+
+              
+  
+            </a>
+  
+            <!-- Body -->
+            <a class="card-body" href="#!">
+  
+              <!-- Heading -->
+              <h3>
+                {{ .name }}
+              </h3>
+  
+            </a>
+  
+          </div>
+  
+        </div>
+      {{ end }}
+
+    </div> <!-- / .row -->
+  
+  </div> <!-- / .container -->
+</section>
+
+<!-- CTA -->
+<section class="py-12 py-md-14 overlay overlay-black overlay-80 bg-cover" style="background-image: url({{ .Params.footer }});">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-1- col-lg-8 text-center">
+
+        <!-- Heading -->
+        <h2 class="text-white">
+          Weitere Leistungen
+        </h2>
+
+        <!-- Text -->
+        <p class="fs-lg text-white text-opacity-80 mb-6 mb-md-8">
+          Wir führen auch Untersuchungen in den folgenden Bereichen durch
+        </p>
+
+      </div>
+
+      <div class="col-12 col-md-1- col-lg-12 text-center">
+
+        <!-- Button -->
+        <a href="/leistungen/kardiologie/" class="btn btn-pill btn-primary lift me-5 mb-5">
+          Kardiologie <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+        <a href="/leistungen/pneumologie/" class="btn btn-pill btn-primary lift me-5 mb-5">
+          Pneumologie <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+        <a href="/leistungen/allergologie/" class="btn btn-pill btn-primary lift me-5 mb-5">
+          Allergologie <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+        <a href="/leistungen/schlafmedizin/" class="btn btn-pill btn-primary lift me-5 mb-5">
+          Schlafmedizin <i class="fe fe-arrow-right ms-2"></i>
+        </a>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+<!-- SHAPE -->
+{{ partial "section/shape" (dict "shape" "curves/curve-1" "color" "text-gray-200") }}
+
+
+{{ end }}
