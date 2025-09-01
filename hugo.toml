@@ -13,7 +13,6 @@ enableRobotsTXT = true
 
 [params]
 img404 = 'img/LuFu1_by_M_Grambow.webp'
-showMainMenu = true
 
 [params.contact]
   claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
