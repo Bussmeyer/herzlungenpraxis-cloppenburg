@@ -1,23 +1,19 @@
+# Merge all default config from modules above e.g. hugo.toml of theme.
+_merge = 'deep'
+
 baseURL = 'https://herzlungenpraxis-cloppenburg.de/'
 languageCode = 'de-DE'
 title = 'Herz-Lungen-Praxis Cloppenburg'
 enableEmoji = true
-disableHugoGeneratorInject = true
-disableKinds = ["rss", "taxonomy", "term"]
 enableRobotsTXT = true
 
 [module]
   [[module.imports]]
     path = "github.com/Bussmeyer/landkit-hugo-theme"
 
-[minify]
-  [minify.tdewolff]
-    [minify.tdewolff.html]
-      keepQuotes = true
-
 [params]
-showMainMenu = true
 img404 = 'img/LuFu1_by_M_Grambow.webp'
+showMainMenu = true
 
 [params.contact]
   claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
