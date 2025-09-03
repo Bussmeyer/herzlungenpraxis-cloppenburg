@@ -56,9 +56,11 @@ draft: false
 
         <!-- Buttons -->
         <div class="text-center text-md-start">
-          <button class="btn btn-primary shadow lift me-1" data-bs-toggle="modal" data-bs-target="#modalContact">
-            Kontakt & Sprechstunde
-          </button>
+          {{< button
+              classes="shadow me-1"
+              modal_toggle=true
+              modal_target="#modalContact"
+            >}}Kontakt & Sprechstunde{{< /button >}}
 
           <a href="{{< relref "informationen/kontakt" >}}" class="btn btn-primary-subtle lift">
             Anfahrt
