@@ -79,11 +79,11 @@ img404 = 'img/LuFu1_by_M_Grambow.webp'
     pageRef = '/ueber-uns/praxis'
     parent = 'Über uns'
     weight = 2
-  [[menus.main]]
-    name = 'Stellenangebote'
-    pageRef = '/ueber-uns/karriere'
-    parent = 'Über uns'
-    weight = 3
+#  [[menus.main]]
+#    name = 'Stellenangebote'
+#    pageRef = '/ueber-uns/karriere'
+#    parent = 'Über uns'
+#    weight = 3
 
 # Patienteninformationen
   [[menus.main]]
