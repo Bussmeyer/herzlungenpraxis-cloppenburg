@@ -13,6 +13,7 @@ enableRobotsTXT = true
 
 [params]
 img404 = 'img/LuFu1_by_M_Grambow.webp'
+og_image = '_index/og/Praxisrundschau_by_M_Grambow.jpg'
 
 [params.contact]
   claim = 'Ihre Praxis für Kardiologie, Pneumologie, Allergologie und Schlafmedizin. Alles unter einem Dach.'
